@@ -102,11 +102,12 @@ defined('GOOGLE_PLUS_WNO')          OR define('GOOGLE_PLUS_WNO', 'https://plus.g
 /*
  * Elementos WNO
  */
-defined('WNO')                      OR define('WNO','Work n\' Office');
+defined('WNO')                      OR define('WNO','Work & Office');
+defined('WNO_DIRECCION')            OR define('WNO_DIRECCION','Dirección de WNO');
 defined('MAPS_KEY')                 OR define('MAPS_KEY','AIzaSyCHynOAAKAhh9wRBi5ychItPqUei9DQhxo');
-defined('TEL_VENTAS')               OR define('TEL_VENTAS', '55 5564 5333');
-defined('MAIL_VENTAS')              OR define('MAIL_VENTAS', 'ventas@oficinas-virtuales-amuebladas.com');
-defined('MAIL_CONTACTO')            OR define('MAIL_CONTACTO', 'contacto@oficinas-virtuales-amuebladas.com');
+defined('TEL_VENTAS')               OR define('TEL_VENTAS', '55 4395 4034');
+defined('MAIL_VENTAS')              OR define('MAIL_VENTAS', 'soluciones@work-n-office.com');
+defined('MAIL_CONTACTO')            OR define('MAIL_CONTACTO', 'soluciones@work-n-office.com');
 defined('PROMO_FISCAL')             OR define('PROMO_FISCAL', '599');
 defined('PROMO_FISCAL_BASICO')      OR define('PROMO_FISCAL_BASICO', '810');
 defined('PROMO_FISCAL_PLUS')        OR define('PROMO_FISCAL_PLUS', '1,042');

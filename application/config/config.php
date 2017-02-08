@@ -23,8 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/proyectos/work-n-office/';
-$config['cdn_assets'] = 'http://localhost/proyectos/work-n-office/';
+$config['base_url'] = 'http://localhost/proyectos/work-n-office';
+$config['cdn_assets'] = 'http://localhost/proyectos/work-n-office';
 
 /*
 |--------------------------------------------------------------------------
@@ -83,7 +83,7 @@ $config['language']	= 'spanish';
 $config['language_abbr'] = "es";
 
 /* set available language abbreviations */
-$config['lang_uri_abbr'] = array("es" => "spanish", "en" => "english");
+$config['lang_uri_abbr'] = array("es" => "Español", "en" => "English");
 
 /* hide the language segment (use cookie) */
 $config['lang_ignore'] = FALSE;

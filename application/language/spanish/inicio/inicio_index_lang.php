@@ -2,77 +2,138 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 $lang['language'] = 'es-MX';
-$lang['title_tag'] = 'OVA - Oficinas Virtuales Amuebladas';
-$lang['metatag_desc'] = 'En Oficinas Virtuales Amuebladas, nos interesa promover una imagen empresarial para nuestros clientes. Navega por nuestro sitio web y explora nuestros recorridos virtuales 360°.';
-$lang['metatag_keywords'] = 'Oficinas, Virtuales, Amuebladas, Inicio, Recorrido, 360, 3D';
+$lang['title_tag'] = 'Work & Office';
+$lang['metatag_desc'] = '';
+$lang['metatag_keywords'] = '';
 
-$lang['inicio_idioma'] = 'Español';
-$lang['inicio_form_title'] = 'Contacto Rápido';
-$lang['inicio_form_sub'] = 'Respuesta inmediata';
-$lang['inicio_form_nombre'] = 'Nombre';
-$lang['inicio_form_correo'] = 'E-mail';
-$lang['inicio_form_telefono'] = 'Teléfono';
-$lang['inicio_form_enviar'] = 'Enviar';
-$lang['inicio_form_enviando'] = 'Enviando...';
-$lang['inicio_form_exito'] = 'Su mensaje fue enviado correctamente<br/><span style="color: #4ee724;">Pronto recibirá respuesta</span>';
-$lang['inicio_confirmacion'] = 'Confirmación - Mensaje Recibido';
-$lang['inicio_error_prospecto'] = 'Su mensaje fue enviado correctamente, sin embargo hubo un error al enviarle la confirmación de Recibido.<br/>Pronto un asesor de ventas se pondrá en contacto con usted.';
-$lang['inicio_error'] = 'Ha ocurrido un error al enviar su mensaje, por favor intentelo de nuevo.<br/>Si el problema persiste, escríbanos a '.MAIL_CONTACTO.' y con gusto le atenderemos.';
-$lang['inicio_recibido'] = 'Mensaje Recibido';
-$lang['inicio_gracias'] = 'Hemos recibido su mensaje, ';
-$lang['inicio_pronto'] = 'Pronto un asesor de ventas se pondrá en contacto con usted, gracias.';
-$lang['inicio_recorridos'] = 'Visite nuestros recorridos virtuales en una vista de 360° <a href="'.base_url_lang().'recorrido-360">Click Aquí</a>';
+$lang['slider_slide1_title']  = 'Soluciones';
+$lang['slider_slide1_sub']  = 'Empresariales';
+$lang['slider_slide1_button']  = 'Conocer más';
 
-$lang['inicio_servicios_virtual_titulo'] = 'Oficinas Virtuales';
-$lang['inicio_servicios_virtual_cont'] = 'El servicio ideal para profesionistas y empresas con la necesidad de expandirse a nuevos mercados.';
-$lang['inicio_servicios_amue_titulo'] = 'Oficinas Amuebladas';
-$lang['inicio_servicios_amue_cont'] = 'Ofrecemos espacios totalmente equipados con personal profesional listo para asistirle.';
-$lang['inicio_servicios_juntas_titulo'] = 'Sala de Juntas';
-$lang['inicio_servicios_juntas_cont'] = 'Lleve a cabo sus reuniones y juntas de trabajo en un ambiente profesional.';
-$lang['inicio_servicios_cap_titulo'] = 'Sala de Capacitaciones*';
-$lang['inicio_servicios_cap_cont'] = 'Ofrezca una experiencía única en nuestra Sala de Capacitaciones con las comodidades que su negocio merece. *Solo en sucursal Insurgentes Sur';
+$lang['slider_slide2_title']  = 'Asesoría';
+$lang['slider_slide2_sub']  = 'Profesional';
+$lang['slider_slide2_button']  = 'Comencemos';
 
-$lang['inicio_lema'] = 'En OVA no rentamos oficinas, contribuimos a que su negocio crezca.';
+$lang['slider_promo_title'] = '¿Busca algún tipo de solución para su situación</span><br>Fiscal, Contable o de Sistemas?';
+$lang['slider_promo_sub'] = 'Agende una cita con nosotros ahora mismo, podemos asesorarlo';
+$lang['slider_promo_call'] = 'Llámenos ahora';
+$lang['slider_promo_mail'] = 'Escríbanos ahora';
 
-$lang['inicio_beneficios_1_titulo'] = 'Varias Sucursales';
-$lang['inicio_beneficios_1_cont'] = 'Como asociado puedes hacer uso de cualquiera de nuestras sucursales.';
-$lang['inicio_beneficios_2_titulo'] = 'Internet Inalámbrico';
-$lang['inicio_beneficios_2_cont'] = 'En todas nuestras sucursales contamos con internet de alta velocidad.';
-$lang['inicio_beneficios_3_titulo'] = 'Asistencia Ejecutiva';
-$lang['inicio_beneficios_3_cont'] = 'Contamos con personal profesional de 9:00 a 18:30 horas.';
-$lang['inicio_beneficios_4_titulo'] = 'Llamadas Ilimitadas';
-$lang['inicio_beneficios_4_cont'] = '¡Puedes hacer llamadas a números fijos, locales y nacionales ilimitadas!';
-$lang['inicio_beneficios_5_titulo'] = 'Servicios Incluidos';
-$lang['inicio_beneficios_5_cont'] = 'Tus planes incluyen el costo de todos los servicios (coffee break, agua, luz, internet, teléfono, limpieza y mantenimiento).';
-$lang['inicio_beneficios_6_titulo'] = 'Sala de Juntas';
-$lang['inicio_beneficios_6_cont'] = 'Proyecta una imagen más profesional haciendo tus reuniones en nuestras salas de juntas.';
+$lang['about_us_title'] = 'Nosotros';
+$lang['about_us_desc'] = 'Somos un grupo de empresas dedicadas a las soluciones empresariales. '.
+                        'Aquí debemos describirnos mejor como grupo empresarial, '.
+                        'es muy importante lo que podamos exponer a la gente y no solo ser una <strong>Sección Amarilla</strong> más.';
 
-$lang['inicio_costos_fiscal_titulo'] = 'Fiscal';
-$lang['inicio_costos_fiscal_basico_titulo'] = 'Fiscal Básico';
-$lang['inicio_costos_fiscal_plus_titulo'] = 'Fiscal Plus';
-$lang['inicio_costos_sub'] = 'Los costos pueden variar por sucursal';
-$lang['inicio_costos_tiempo_abbr'] = 'mes';
-$lang['inicio_costos_tiempo'] = 'mensual';
-$lang['inicio_costos_boton'] = 'Contactar';
-$lang['inicio_costos_suc'] = 'Ver Más';
-$lang['inicio_costos_amue_titulo'] = '¿Busca una Oficina Amueblada?';
-$lang['inicio_costos_amue_1'] = ' Oficinas bien equipadas.';
-$lang['inicio_costos_amue_2'] = ' Excelentes ubicaciones.';
-$lang['inicio_costos_amue_3'] = ' Sala de capacitaciones.';
-$lang['inicio_costos_amue_4'] = ' Salas de juntas.';
-$lang['inicio_costos_amue_5'] = ' Precios preferenciales.';
-$lang['inicio_costos_amue_6'] = ' Internet inalámbrico.';
-$lang['inicio_costos_amue_7'] = ' Recepción de mensajería.';
-$lang['inicio_costos_amue_8'] = ' Y más...';
-$lang['inicio_costos_amue_precio'] = 'Costos de acuerdo al espacio y la ubicación';
-$lang['inicio_costos_fiscal_plus'] = 'Conoce nuestros planes Fiscales Plus';
+$lang['about_us_list_1'] = 'Profesionales Certificados';
+$lang['about_us_list_2'] = 'Experiencia Comprobada';
+$lang['about_us_list_3'] = 'Actualizaciones Fiscales';
+$lang['about_us_list_4'] = 'Contabilidad al Día';
+$lang['about_us_list_5'] = 'Excelente Servicio';
+$lang['about_us_list_6'] = 'Excelente Equipo de Trabajo';
 
-//Form validation JS
-$lang['minlength'] = 'Este campo debe tener por lo menos {0} caracteres';
-$lang['maxlength'] = 'Este campo debe tener máximo {0} caracteres';
-$lang['required'] = 'Este campo es requerido';
-$lang['correo'] = 'Este campo debe ser un email válido';
-$lang['digits'] = 'Este campo solo permite dígitos del 0-9';
-$lang['number'] = 'Este campo solo permite números válidos';
+$lang['about_us_button'] = 'Saber más';
+
+$lang['about_us_counter_1'] = 'Años en Negocio';
+$lang['about_us_counter_2'] = 'Casos Exitosos';
+$lang['about_us_counter_3'] = 'Clientes Satisfechos';
+$lang['about_us_counter_4'] = 'Consultores Profesionales';
+
+$lang['services_title'] = 'Servicios';
+
+$lang['services_list_1_title'] = 'Contabilidad Corporativa';
+$lang['services_list_1_desc'] = 'Descripción';
+$lang['services_list_2_title'] = 'Asesoría Jurídica';
+$lang['services_list_2_desc'] = 'Descripción';
+$lang['services_list_3_title'] = 'Recorridos Virtuales 360°';
+$lang['services_list_3_desc'] = 'Descripción';
+$lang['services_list_4_title'] = 'Arquitectura Empresarial';
+$lang['services_list_4_desc'] = 'Descripción';
+$lang['services_list_5_title'] = 'Reclutamiento de TI';
+$lang['services_list_5_desc'] = 'Descripción';
+$lang['services_list_6_title'] = 'Apps Móviles / Web';
+$lang['services_list_6_desc'] = 'Descripción';
+
+$lang['services_button'] = 'Conocer todos los servicios';
+
+$lang['strat_title'] = 'Nuestra Estrategia';
+$lang['strat_step_name'] = 'Paso';
+
+$lang['strat_step_1_title'] = 'Primera Reunión';
+$lang['strat_step_1_sub'] = 'Entendiendo el problema';
+$lang['strat_step_1_desc'] = 'Descripción';
+$lang['strat_step_2_title'] = 'Segunda Reunión';
+$lang['strat_step_2_sub'] = 'Generando la solución';
+$lang['strat_step_2_desc'] = 'Descripción';
+$lang['strat_step_3_title'] = 'Tercera Reunión';
+$lang['strat_step_3_sub'] = 'Problema resuelto';
+$lang['strat_step_3_desc'] = 'Descripción';
+
+$lang['faq_title'] = 'Preguntas Frecuentes';
+
+$lang['faq_1_que'] = '¿Cuánto tiempo tardan en hacer un desarrollo de software a la medida?';
+$lang['faq_1_ans'] = 'Depende de la solución de requerida, puede variar de una semana hasta varios meses.';
+$lang['faq_2_que'] = '¿Cuánto tiempo tardan en hacer un desarrollo de software a la medida?';
+$lang['faq_2_ans'] = 'Depende de la solución de requerida, puede variar de una semana hasta varios meses.';
+$lang['faq_3_que'] = '¿Cuánto tiempo tardan en hacer un desarrollo de software a la medida?';
+$lang['faq_3_ans'] = 'Depende de la solución de requerida, puede variar de una semana hasta varios meses.';
+$lang['faq_4_que'] = '¿Cuánto tiempo tardan en hacer un desarrollo de software a la medida?';
+$lang['faq_4_ans'] = 'Depende de la solución de requerida, puede variar de una semana hasta varios meses.';
+
+$lang['success_title'] = 'Casos de Éxito';
+
+$lang['success_1_title'] = 'Recorridos Virtuales';
+$lang['success_1_sub'] = '...';
+$lang['success_2_title'] = 'Contabilidad Corporativa';
+$lang['success_2_sub'] = '...';
+$lang['success_3_title'] = 'Asesoría Jurídica';
+$lang['success_3_sub'] = '...';
+$lang['success_4_title'] = 'Desarrollo de Software';
+$lang['success_4_sub'] = '...';
+$lang['success_5_title'] = 'Reclutamiento de TI';
+$lang['success_5_sub'] = '...';
+$lang['success_6_title'] = 'Litigación';
+$lang['success_6_sub'] = '...';
+$lang['success_7_title'] = 'Consultoría Empresarial';
+$lang['success_7_sub'] = '...';
+$lang['success_8_title'] = 'Consultoría de Marca';
+$lang['success_8_sub'] = '...';
+$lang['success_9_title'] = 'Desarrollo a la Medida';
+$lang['success_9_sub'] = '...';
+
+$lang['exp_title'] = 'Testimonios';
+
+$lang['exp_1_desc'] = 'Descripción';
+$lang['exp_1_name'] = 'José Morales';
+$lang['exp_1_name_sub'] = 'Director Comercial - Grupo Termo';
+$lang['exp_2_desc'] = 'Descripción';
+$lang['exp_2_name'] = 'Batsi Cardenas';
+$lang['exp_2_name_sub'] = 'CEO & Co-Fundadora - Icognitis';
+
+$lang['news_title'] = 'Últimas Noticias';
+$lang['news_pub'] = 'Publicado por:';
+$lang['news_com'] = 'Comentarios:';
+$lang['news_like'] = 'Me gusta:';
+$lang['news_button'] = 'Leer más';
+
+$lang['news_1_title'] = 'Nuevos cambios a la miscelanea fiscal 2017';
+$lang['news_1_desc'] = 'Descripción';
+$lang['news_1_name'] = 'Raquel Butanda';
+$lang['news_1_date'] = '20<span class="month-year font-weight-light">Ene-17</span>';
+
+$lang['know_title'] = 'Conózcanos';
+$lang['know_desc'] = 'Descripción';
+$lang['know_call'] = 'Llame';
+$lang['know_call_sub'] = 'Tel';
+$lang['know_mail'] = 'Escríbanos';
+$lang['know_mail_sub'] = 'E-mail';
+$lang['know_loc'] = 'Nuestra Ubicación';
+$lang['know_social'] = 'Redes Sociales';
+
+$lang['form_title'] = 'Escríbenos';
+$lang['form_name'] = 'Nombre *';
+$lang['form_mail'] = 'E-mail *';
+$lang['form_mes'] = 'Mensaje *';
+$lang['form_button'] = 'Enviar ahora';
+$lang['form_sending'] = 'Enviando...';
 
 ?>

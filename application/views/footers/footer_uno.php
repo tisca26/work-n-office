@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 center">
-                <p>2017 © Consultoría <span class="text-color-light">Work & Office</span> - Todos los derechos reservados</p>
+                <p><?php echo trans_line('copyright');?></p>
             </div>
         </div>
     </div>

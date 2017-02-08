@@ -1,1 +1,35 @@
 /* Add here all your CSS customizations */
+
+#header .header-nav-top .nav > li > a, #header .header-nav-top .nav > li > span {
+    color: #DDD;
+    font-size: 0.9em;
+    padding: 6px 10px;
+    display: inline-block;
+}
+
+#header .header-nav-top .nav > li > a{
+    border-radius: 3px;
+}
+
+#header .header-nav-top .nav > li > a:hover, #header .header-nav-top .nav > li > a a:focus {
+    background: rgba(255,255,255,0.3);
+    color: #FFF;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+    background: rgba(255,255,255,0.5);
+    color: #FFF;
+}
+
+.dropdown-menu>li>a{
+    color: #CCC;
+}
+
+@media (max-width: 991px){
+    #header.header-semi-transparent .header-nav-main {
+        background: #1e1e1e;
+    }
+    #header .header-nav-main nav > ul li{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    }
+}

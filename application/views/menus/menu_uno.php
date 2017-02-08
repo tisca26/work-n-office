@@ -10,7 +10,7 @@
                 <div class="header-column">
                     <div class="header-logo">
                         <a href="demo-business-consulting.html">
-                            <img alt="Work n Office" width="auto" height="54" data-sticky-width="auto" data-sticky-height="40" data-sticky-top="33" src="<?php echo cdn_assets();?>assets/img/wno-menu-dark.png">
+                            <img alt="<?php echo WNO;?>" width="210" height="54" data-sticky-width="163" data-sticky-height="40" data-sticky-top="33" src="<?php echo cdn_assets();?>/assets/img/wno-menu-dark.png">
                         </a>
                     </div>
                 </div>
@@ -24,16 +24,7 @@
                                 <li class="hidden-xs hidden-sm">
                                     <span class="ws-nowrap"><i class="fa fa-envelope"></i> <?php echo MAIL_CONTACTO;?></span>
                                 </li>
-                                <li>
-                                    <a href="#" class="dropdown-menu-toggle" id="dropdownLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                        <img src="<?php echo cdn_assets();?>assets/img/blank.gif" class="flag flag-us" alt="English"> English
-                                        <i class="fa fa-angle-down"></i>
-                                    </a>
-                                    <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownLanguage">
-                                        <li><a href="#"><img src="<?php echo cdn_assets();?>assets/img/blank.gif" class="flag flag-us" alt="English"> English</a></li>
-                                        <li><a href="#"><img src="<?php echo cdn_assets();?>assets/img/blank.gif" class="flag flag-mx" alt="Español"> Español</a></li>
-                                    </ul>
-                                </li>
+                                <?php echo menu_lang_sel();?>
                             </ul>
                         </nav>
                     </div>
@@ -47,66 +38,78 @@
                                 <nav>
                                     <ul class="nav nav-pills" id="mainNav">
                                         <li class="active">
-                                            <a href="demo-business-consulting.html">
-                                                Inicio
+                                            <a href="<?php echo base_url_lang();?>">
+                                                <?php echo trans_line('menu_opt_1');?>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="demo-business-consulting-about-us.html">
-                                                Nosotros
+                                            <a href="<?php echo base_url_lang();?>nosotros">
+                                                <?php echo trans_line('menu_opt_2');?>
                                             </a>
                                         </li>
                                         <li class="dropdown dropdown-primary">
                                             <a class="dropdown-toggle"
-                                               href="demo-business-consulting-expertise.html">
-                                                Servicios
+                                               href="<?php echo base_url_lang();?>servicios">
+                                                <?php echo trans_line('menu_opt_3');?>
                                             </a>
                                             <ul class="dropdown-menu">
                                                 <li>
-                                                    <a href="demo-business-consulting-expertise-detail.html">
-                                                        Contabilidad Corporativa
+                                                    <a href="<?php echo base_url_lang();?>servicios/contabilidad-corporativa">
+                                                        <?php echo trans_line('menu_opt_3_sub_1');?>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="demo-business-consulting-expertise-detail.html">
-                                                        Asesoría Fiscal
+                                                    <a href="<?php echo base_url_lang();?>servicios/asesoria-jurídica">
+                                                        <?php echo trans_line('menu_opt_3_sub_2');?>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="demo-business-consulting-expertise-detail.html">
-                                                        Recorridos Virtuales 360
+                                                    <a href="<?php echo base_url_lang();?>servicios/recorridos-virtuales">
+                                                        <?php echo trans_line('menu_opt_3_sub_3');?>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="demo-business-consulting-expertise-detail.html">
-                                                        Desarrollo de Software
+                                                    <a href="<?php echo base_url_lang();?>servicios/desarrollo-de-software">
+                                                        <?php echo trans_line('menu_opt_3_sub_4');?>
+                                                    </a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="<?php echo base_url_lang();?>servicios/desarrollo-de-software/extra-1">
+                                                                <?php echo trans_line('menu_opt_3_sub_4_sub_1');?>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="<?php echo base_url_lang();?>servicios/desarrollo-de-software/extra-2">
+                                                                <?php echo trans_line('menu_opt_3_sub_4_sub_2');?>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="<?php echo base_url_lang();?>servicios/reclutamiento-de-TI">
+                                                        <?php echo trans_line('menu_opt_3_sub_5');?>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="demo-business-consulting-expertise-detail.html">
-                                                        Reclutamiento de TI
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="demo-business-consulting-expertise-detail.html">
-                                                        Arquitectura Empresarial
+                                                    <a href="<?php echo base_url_lang();?>servicios/arquitectura-empresarial">
+                                                        <?php echo trans_line('menu_opt_3_sub_6');?>
                                                     </a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="demo-business-consulting-cases.html">
-                                                Casos
+                                            <a href="<?php echo base_url_lang();?>casos">
+                                                <?php echo trans_line('menu_opt_4');?>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="demo-business-consulting-tertimonials.html">
-                                                Testimonios
+                                            <a href="<?php echo base_url_lang();?>testimonios">
+                                                <?php echo trans_line('menu_opt_5');?>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="demo-business-consulting-contact-us.html">
-                                                Contáctanos
+                                            <a href="<?php echo base_url_lang();?>contacto">
+                                                <?php echo trans_line('menu_opt_6');?>
                                             </a>
                                         </li>
                                     </ul>
