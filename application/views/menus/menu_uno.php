@@ -37,17 +37,17 @@
                             <div class="header-nav-main header-nav-main-square custom-header-nav-main-effect-1 collapse">
                                 <nav>
                                     <ul class="nav nav-pills" id="mainNav">
-                                        <li class="active">
+                                        <li class="<?php echo ($menu_root=='inicio')?'active':'';?>">
                                             <a href="<?php echo base_url_lang();?>">
                                                 <?php echo trans_line('menu_opt_1');?>
                                             </a>
                                         </li>
-                                        <li>
+                                        <li class="<?php echo ($menu_root=='nosotros')?'active':'';?>">
                                             <a href="<?php echo base_url_lang();?>nosotros">
                                                 <?php echo trans_line('menu_opt_2');?>
                                             </a>
                                         </li>
-                                        <li class="dropdown dropdown-primary">
+                                        <li class="dropdown dropdown-primary <?php echo ($menu_root=='servicios')?'active':'';?>">
                                             <a class="dropdown-toggle"
                                                href="<?php echo base_url_lang();?>servicios">
                                                 <?php echo trans_line('menu_opt_3');?>
@@ -59,7 +59,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="<?php echo base_url_lang();?>servicios/asesoria-jurídica">
+                                                    <a href="<?php echo base_url_lang();?>servicios/asesoria-juridica">
                                                         <?php echo trans_line('menu_opt_3_sub_2');?>
                                                     </a>
                                                 </li>
@@ -97,17 +97,17 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li>
+                                        <li class="<?php echo ($menu_root=='casos')?'active':'';?>">
                                             <a href="<?php echo base_url_lang();?>casos">
                                                 <?php echo trans_line('menu_opt_4');?>
                                             </a>
                                         </li>
-                                        <li>
+                                        <li class="<?php echo ($menu_root=='testimonios')?'active':'';?>">
                                             <a href="<?php echo base_url_lang();?>testimonios">
                                                 <?php echo trans_line('menu_opt_5');?>
                                             </a>
                                         </li>
-                                        <li>
+                                        <li class="<?php echo ($menu_root=='contacto')?'active':'';?>">
                                             <a href="<?php echo base_url_lang();?>contacto">
                                                 <?php echo trans_line('menu_opt_6');?>
                                             </a>
