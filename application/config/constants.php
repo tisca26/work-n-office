@@ -108,54 +108,6 @@ defined('MAPS_KEY')                 OR define('MAPS_KEY','AIzaSyCHynOAAKAhh9wRBi
 defined('TEL_VENTAS')               OR define('TEL_VENTAS', '55 4395 4034');
 defined('MAIL_VENTAS')              OR define('MAIL_VENTAS', 'soluciones@work-n-office.com');
 defined('MAIL_CONTACTO')            OR define('MAIL_CONTACTO', 'soluciones@work-n-office.com');
-defined('PROMO_FISCAL')             OR define('PROMO_FISCAL', '599');
-defined('PROMO_FISCAL_BASICO')      OR define('PROMO_FISCAL_BASICO', '810');
-defined('PROMO_FISCAL_PLUS')        OR define('PROMO_FISCAL_PLUS', '1,042');
 
-/*
- * SUCURSALES
- */
-defined('SUC_5_NOMBRE')                 OR define('SUC_5_NOMBRE','Polanco');
-defined('SUC_5_DIR')                    OR define('SUC_5_DIR','Calzada General Mariano Escobedo 510, Anzures, Ciudad de México');
-defined('SUC_5_TEL_EXPRESS')            OR define('SUC_5_TEL_EXPRESS','55 7269 7992');
-defined('SUC_5_PRECIO_FISCAL_BASICO')   OR define('SUC_5_PRECIO_FISCAL_BASICO','810');
-defined('SUC_5_PRECIO_FISCAL')          OR define('SUC_5_PRECIO_FISCAL','599');
-defined('SUC_5_PRECIO_FISCAL_PLUS')     OR define('SUC_5_PRECIO_FISCAL_PLUS','1,042');
-defined('SUC_2_NOMBRE')                 OR define('SUC_2_NOMBRE','Condesa');
-defined('SUC_2_DIR')                    OR define('SUC_2_DIR','Baja California 255, Hipódromo, Ciudad de México');
-defined('SUC_2_TEL_EXPRESS')            OR define('SUC_2_TEL_EXPRESS','55 7269 7992');
-defined('SUC_2_PRECIO_FISCAL_BASICO')   OR define('SUC_2_PRECIO_FISCAL_BASICO','810');
-defined('SUC_2_PRECIO_FISCAL')          OR define('SUC_2_PRECIO_FISCAL','599');
-defined('SUC_2_PRECIO_FISCAL_PLUS')     OR define('SUC_2_PRECIO_FISCAL_PLUS','1,042');
-defined('SUC_1_NOMBRE')                 OR define('SUC_1_NOMBRE','Barranca del Muerto');
-defined('SUC_1_DIR')                    OR define('SUC_1_DIR','Insurgentes Sur 1677, Guadalupe Inn, Ciudad de México');
-defined('SUC_1_TEL_EXPRESS')            OR define('SUC_1_TEL_EXPRESS','55 7269 7992');
-defined('SUC_1_PRECIO_FISCAL_BASICO')   OR define('SUC_1_PRECIO_FISCAL_BASICO','810');
-defined('SUC_1_PRECIO_FISCAL')          OR define('SUC_1_PRECIO_FISCAL','599');
-defined('SUC_1_PRECIO_FISCAL_PLUS')     OR define('SUC_1_PRECIO_FISCAL_PLUS','1,042');
-defined('SUC_4_NOMBRE')                 OR define('SUC_4_NOMBRE','Insurgentes Sur');
-defined('SUC_4_DIR')                    OR define('SUC_4_DIR','Insurgentes Sur 586, Colonia del Valle Centro, Benito Juárez, Ciudad de México');
-defined('SUC_4_TEL_EXPRESS')            OR define('SUC_4_TEL_EXPRESS','55 7269 7992');
-defined('SUC_4_PRECIO_FISCAL_BASICO')   OR define('SUC_4_PRECIO_FISCAL_BASICO','810');
-defined('SUC_4_PRECIO_FISCAL')          OR define('SUC_4_PRECIO_FISCAL','599');
-defined('SUC_4_PRECIO_FISCAL_PLUS')     OR define('SUC_4_PRECIO_FISCAL_PLUS','1,042');
-defined('SUC_3_NOMBRE')                 OR define('SUC_3_NOMBRE','Del Valle');
-defined('SUC_3_DIR')                    OR define('SUC_3_DIR','Miguel Laurent 15, Tlacoquemecatl del Valle, Ciudad de México');
-defined('SUC_3_TEL_EXPRESS')            OR define('SUC_3_TEL_EXPRESS','55 7269 7992');
-defined('SUC_3_PRECIO_FISCAL_BASICO')   OR define('SUC_3_PRECIO_FISCAL_BASICO','810');
-defined('SUC_3_PRECIO_FISCAL')          OR define('SUC_3_PRECIO_FISCAL','599');
-defined('SUC_3_PRECIO_FISCAL_PLUS')     OR define('SUC_3_PRECIO_FISCAL_PLUS','1,042');
-defined('SUC_6_NOMBRE')                 OR define('SUC_6_NOMBRE','Fontana');
-defined('SUC_6_DIR')                    OR define('SUC_6_DIR','Sierra de Zimapán 4, Villas del Sol, Santiago de Querétaro');
-defined('SUC_6_TEL_EXPRESS')            OR define('SUC_6_TEL_EXPRESS','55 7269 7992');
-defined('SUC_6_PRECIO_FISCAL_BASICO')   OR define('SUC_6_PRECIO_FISCAL_BASICO','810');
-defined('SUC_6_PRECIO_FISCAL')          OR define('SUC_6_PRECIO_FISCAL','599');
-defined('SUC_6_PRECIO_FISCAL_PLUS')     OR define('SUC_6_PRECIO_FISCAL_PLUS','1,042');
-defined('SUC_7_NOMBRE')                 OR define('SUC_7_NOMBRE','Zaragoza');
-defined('SUC_7_DIR')                    OR define('SUC_7_DIR','Calle Ignacio Zaragoza 279, Del Prado, 76039 Santiago de Querétaro, Qro.');
-defined('SUC_7_TEL_EXPRESS')            OR define('SUC_7_TEL_EXPRESS','55 7269 7992');
-defined('SUC_7_PRECIO_FISCAL_BASICO')   OR define('SUC_7_PRECIO_FISCAL_BASICO','810');
-defined('SUC_7_PRECIO_FISCAL')          OR define('SUC_7_PRECIO_FISCAL','599');
-defined('SUC_7_PRECIO_FISCAL_PLUS')     OR define('SUC_7_PRECIO_FISCAL_PLUS','1,042');
 
 

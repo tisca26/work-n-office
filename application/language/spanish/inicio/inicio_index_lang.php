@@ -2,9 +2,9 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 $lang['language'] = 'es-MX';
-$lang['title_tag'] = 'Work & Office';
-$lang['metatag_desc'] = '';
-$lang['metatag_keywords'] = '';
+$lang['title_tag'] = 'Work & Office | Soluciones empresariales';
+$lang['metatag_desc'] = 'Soluciones empresariales en desarrollo de software, contabilidad corporativa, couching empresarial, asesoría fiscal';
+$lang['metatag_keywords'] = 'soluciones empresariales, desarrollo de software, contabilidad corporativa, couching empresarial, asesoría fiscal';
 
 $lang['slider_slide1_title']  = 'Soluciones';
 $lang['slider_slide1_sub']  = 'Empresariales';
@@ -14,7 +14,8 @@ $lang['slider_slide2_title']  = 'Asesoría';
 $lang['slider_slide2_sub']  = 'Profesional';
 $lang['slider_slide2_button']  = 'Comencemos';
 
-$lang['slider_promo_title'] = '¿Busca algún tipo de solución para su situación</span><br>Fiscal, Contable o de Sistemas?';
+$lang['slider_promo_title_1'] = '¿Busca algún tipo de solución para su situación';
+$lang['slider_promo_title_2'] = 'Fiscal, Contable o de Sistemas?';
 $lang['slider_promo_sub'] = 'Agende una cita con nosotros ahora mismo, podemos asesorarlo';
 $lang['slider_promo_call'] = 'Llámenos ahora';
 $lang['slider_promo_mail'] = 'Escríbanos ahora';
@@ -40,18 +41,18 @@ $lang['about_us_counter_4'] = 'Consultores Profesionales';
 
 $lang['services_title'] = 'Servicios';
 
-$lang['services_list_1_title'] = 'Contabilidad Corporativa';
-$lang['services_list_1_desc'] = 'Descripción';
-$lang['services_list_2_title'] = 'Asesoría Jurídica';
-$lang['services_list_2_desc'] = 'Descripción';
-$lang['services_list_3_title'] = 'Recorridos Virtuales 360°';
-$lang['services_list_3_desc'] = 'Descripción';
-$lang['services_list_4_title'] = 'Arquitectura Empresarial';
-$lang['services_list_4_desc'] = 'Descripción';
-$lang['services_list_5_title'] = 'Reclutamiento de TI';
-$lang['services_list_5_desc'] = 'Descripción';
-$lang['services_list_6_title'] = 'Apps Móviles / Web';
-$lang['services_list_6_desc'] = 'Descripción';
+$lang['contabilidad_title'] = 'Contabilidad Corporativa';
+$lang['contabilidad_desc'] = 'Realización de contabilidad conforme a las Normas de Información Financiera y Normas Federales.';
+$lang['juridico_title'] = 'Asesoría Jurídica';
+$lang['juridico_desc'] = 'Aspectos legales orientados al mumndo corporativo, litigio civil, mercantil, laboral, familiar, entre otros.';
+$lang['recorridos_title'] = 'Recorridos Virtuales 360°';
+$lang['recorridos_desc'] = 'Recorridos de sus oficinas ligados a su sitio web o Google Street View.';
+$lang['ae_title'] = 'Arquitectura Empresarial';
+$lang['ae_desc'] = 'Gobierno de TI, acoplados al MAAGTIC-SI. Tomamos como marco de trabajo TOGAF y ArchiMate.';
+$lang['reclutamiento_ti_title'] = 'Reclutamiento de TI';
+$lang['reclutamiento_ti_desc'] = 'Suministro de personal temporal y permanente, selección especializada de personal, y consultoría en TI.';
+$lang['software_title'] = 'Desarrollo de Software';
+$lang['software_desc'] = 'Desarrollo de aplicaciones móviles y web, licenciamiento con Oracle y Windows';
 
 $lang['services_button'] = 'Conocer todos los servicios';
 
@@ -60,13 +61,13 @@ $lang['strat_step_name'] = 'Paso';
 
 $lang['strat_step_1_title'] = 'Primera Reunión';
 $lang['strat_step_1_sub'] = 'Entendiendo el problema';
-$lang['strat_step_1_desc'] = 'Descripción';
+$lang['strat_step_1_desc'] = 'Entendemos el problema, analisándolo desde diferentes perspectivas para poder generar una solución factible a su negocio y situación.';
 $lang['strat_step_2_title'] = 'Segunda Reunión';
 $lang['strat_step_2_sub'] = 'Generando la solución';
-$lang['strat_step_2_desc'] = 'Descripción';
+$lang['strat_step_2_desc'] = 'Generamos una solución de acuerdo a sus necesidades, bajo los lineamientos establecidos y los tiempos requeridos.';
 $lang['strat_step_3_title'] = 'Tercera Reunión';
 $lang['strat_step_3_sub'] = 'Problema resuelto';
-$lang['strat_step_3_desc'] = 'Descripción';
+$lang['strat_step_3_desc'] = 'Ejecutamos la solución para resolver la problemática o mejora a su proceso.';
 
 $lang['faq_title'] = 'Preguntas Frecuentes';
 
@@ -81,24 +82,24 @@ $lang['faq_4_ans'] = 'Depende de la solución de requerida, puede variar de una 
 
 $lang['success_title'] = 'Casos de Éxito';
 
-$lang['success_1_title'] = 'Recorridos Virtuales';
-$lang['success_1_sub'] = '...';
-$lang['success_2_title'] = 'Contabilidad Corporativa';
-$lang['success_2_sub'] = '...';
-$lang['success_3_title'] = 'Asesoría Jurídica';
-$lang['success_3_sub'] = '...';
-$lang['success_4_title'] = 'Desarrollo de Software';
-$lang['success_4_sub'] = '...';
-$lang['success_5_title'] = 'Reclutamiento de TI';
-$lang['success_5_sub'] = '...';
+$lang['suc_recorridos_1_title'] = 'Recorridos Virtuales';
+$lang['suc_recorridos_1_sub'] = 'Oficinas Virtuales Amuebladas';
+$lang['suc_contabilidad_1_title'] = 'Contabilidad Corporativa';
+$lang['suc_contabilidad_1_sub'] = '...';
+$lang['suc_juridico_1_title'] = 'Asesoría Jurídica';
+$lang['suc_juridico_1_sub'] = '...';
+$lang['suc_software_1_title'] = 'Desarrollo de Software';
+$lang['suc_software_1_sub'] = 'Grupo Termo';
+$lang['suc_reclutamiento_1_title'] = 'Reclutamiento de TI';
+$lang['suc_reclutamiento_1_sub'] = 'Darch BPS';
 $lang['success_6_title'] = 'Litigación';
 $lang['success_6_sub'] = '...';
 $lang['success_7_title'] = 'Consultoría Empresarial';
 $lang['success_7_sub'] = '...';
 $lang['success_8_title'] = 'Consultoría de Marca';
 $lang['success_8_sub'] = '...';
-$lang['success_9_title'] = 'Desarrollo a la Medida';
-$lang['success_9_sub'] = '...';
+$lang['suc_software_2_title'] = 'Desarrollo a la Medida';
+$lang['suc_software_2_sub'] = 'Traducciones Científicas';
 
 $lang['exp_title'] = 'Testimonios';
 
@@ -108,6 +109,10 @@ $lang['exp_1_name_sub'] = 'Director Comercial - Grupo Termo';
 $lang['exp_2_desc'] = 'Descripción';
 $lang['exp_2_name'] = 'Batsi Cardenas';
 $lang['exp_2_name_sub'] = 'CEO & Co-Fundadora - Icognitis';
+
+$lang['franja_call_to_action_title'] = '¿Busca ayuda con su empresa?';
+$lang['franja_call_to_action_desc'] = '¿Tiene algún problema Fiscal, Contable o de Sistemas?';
+$lang['franja_call_to_action_sub'] = 'Agende una cita con nosotros ahora mismo, podemos asesorarlo';
 
 $lang['news_title'] = 'Últimas Noticias';
 $lang['news_pub'] = 'Publicado por:';
