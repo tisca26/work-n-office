@@ -120,20 +120,4 @@ $lang['news_1_desc'] = 'Descripción';
 $lang['news_1_name'] = 'Raquel Butanda';
 $lang['news_1_date'] = '20<span class="month-year font-weight-light">Ene-17</span>';
 
-$lang['know_title'] = 'Conózcanos';
-$lang['know_desc'] = 'Descripción';
-$lang['know_call'] = 'Llame';
-$lang['know_call_sub'] = 'Tel';
-$lang['know_mail'] = 'Escríbanos';
-$lang['know_mail_sub'] = 'E-mail';
-$lang['know_loc'] = 'Nuestra Ubicación';
-$lang['know_social'] = 'Redes Sociales';
-
-$lang['form_title'] = 'Escríbenos';
-$lang['form_name'] = 'Nombre *';
-$lang['form_mail'] = 'E-mail *';
-$lang['form_mes'] = 'Mensaje *';
-$lang['form_button'] = 'Enviar ahora';
-$lang['form_sending'] = 'Enviando...';
-
 ?>
