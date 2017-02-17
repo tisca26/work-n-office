@@ -2,9 +2,9 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 $lang['know_title'] = 'Conózcanos';
-$lang['know_desc'] = 'Descripción';
-$lang['know_call'] = 'Llame';
-$lang['know_call_sub'] = 'Tel';
+$lang['know_desc'] = 'Somos una empresa dedicada a brindar soluciones que todo negocio necesita.';
+$lang['know_call'] = 'Llámanos';
+$lang['know_call_sub'] = 'Teléfono';
 $lang['know_mail'] = 'Escríbanos';
 $lang['know_mail_sub'] = 'E-mail';
 $lang['know_loc'] = 'Nuestra Ubicación';

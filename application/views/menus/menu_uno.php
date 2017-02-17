@@ -9,7 +9,7 @@
             <div class="header-row">
                 <div class="header-column">
                     <div class="header-logo">
-                        <a href="demo-business-consulting.html">
+                        <a href="<?php echo base_url_lang(); ?>">
                             <img alt="<?php echo WNO;?>" width="210" height="54" data-sticky-width="163" data-sticky-height="40" data-sticky-top="33" src="<?php echo cdn_assets();?>/assets/img/wno-menu-dark.png">
                         </a>
                     </div>
@@ -39,38 +39,43 @@
                                     <ul class="nav nav-pills" id="mainNav">
                                         <li class="<?php echo ($menu_root=='inicio')?'active':'';?>">
                                             <a href="<?php echo base_url_lang();?>">
-                                                <?php echo trans_line('menu_opt_1');?>
+                                                <?php echo trans_line('menu_inicio');?>
                                             </a>
                                         </li>
                                         <li class="<?php echo ($menu_root=='nosotros')?'active':'';?>">
                                             <a href="<?php echo base_url_lang();?>nosotros">
-                                                <?php echo trans_line('menu_opt_2');?>
+                                                <?php echo trans_line('menu_nosotros');?>
                                             </a>
                                         </li>
                                         <li class="dropdown dropdown-primary <?php echo ($menu_root=='servicios')?'active':'';?>">
                                             <a class="dropdown-toggle"
                                                href="<?php echo base_url_lang();?>servicios">
-                                                <?php echo trans_line('menu_opt_3');?>
+                                                <?php echo trans_line('menu_servicios');?>
                                             </a>
                                             <ul class="dropdown-menu">
                                                 <li>
+                                                    <a href="<?php echo base_url_lang();?>servicios/coaching-empresarial">
+                                                        <?php echo trans_line('menu_serv_coaching');?>
+                                                    </a>
+                                                </li>
+                                                <li>
                                                     <a href="<?php echo base_url_lang();?>servicios/contabilidad-corporativa">
-                                                        <?php echo trans_line('menu_opt_3_sub_1');?>
+                                                        <?php echo trans_line('menu_serv_contabilidad');?>
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="<?php echo base_url_lang();?>servicios/asesoria-juridica">
-                                                        <?php echo trans_line('menu_opt_3_sub_2');?>
+                                                        <?php echo trans_line('menu_serv_juridico');?>
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="<?php echo base_url_lang();?>servicios/recorridos-virtuales">
-                                                        <?php echo trans_line('menu_opt_3_sub_3');?>
+                                                        <?php echo trans_line('menu_serv_recorridos');?>
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="<?php echo base_url_lang();?>servicios/desarrollo-de-software">
-                                                        <?php echo trans_line('menu_opt_3_sub_4');?>
+                                                        <?php echo trans_line('menu_serv_software');?>
                                                     </a>
                                                     <ul>
                                                         <li>
@@ -86,30 +91,25 @@
                                                     </ul>
                                                 </li>
                                                 <li>
-                                                    <a href="<?php echo base_url_lang();?>servicios/reclutamiento-de-TI">
-                                                        <?php echo trans_line('menu_opt_3_sub_5');?>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="<?php echo base_url_lang();?>servicios/arquitectura-empresarial">
-                                                        <?php echo trans_line('menu_opt_3_sub_6');?>
+                                                    <a href="<?php echo base_url_lang();?>servicios/reclutamiento-de-ti">
+                                                        <?php echo trans_line('menu_serv_reclutamiento');?>
                                                     </a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li class="<?php echo ($menu_root=='casos')?'active':'';?>">
                                             <a href="<?php echo base_url_lang();?>casos">
-                                                <?php echo trans_line('menu_opt_4');?>
+                                                <?php echo trans_line('menu_casos');?>
                                             </a>
                                         </li>
                                         <li class="<?php echo ($menu_root=='testimonios')?'active':'';?>">
                                             <a href="<?php echo base_url_lang();?>testimonios">
-                                                <?php echo trans_line('menu_opt_5');?>
+                                                <?php echo trans_line('menu_testimonios');?>
                                             </a>
                                         </li>
                                         <li class="<?php echo ($menu_root=='contacto')?'active':'';?>">
                                             <a href="<?php echo base_url_lang();?>contacto">
-                                                <?php echo trans_line('menu_opt_6');?>
+                                                <?php echo trans_line('menu_contacto');?>
                                             </a>
                                         </li>
                                     </ul>

@@ -16,15 +16,15 @@ class Servicios extends CI_Controller
     }
 
     public function contabilidad_corporativa(){
-        $this->cargar_idioma->carga_lang('servicios/servicios_contabilidad');
+        $this->cargar_idioma->carga_lang('servicios/servicios_contabilidad_corporativa');
         $data = array();
-        $this->load->view('servicios/servicios_contabilidad', $data);
+        $this->load->view('servicios/servicios_contabilidad_corporativa', $data);
     }
 
     public function asesoria_juridica(){
-        $this->cargar_idioma->carga_lang('servicios/servicios_juridica');
+        $this->cargar_idioma->carga_lang('servicios/servicios_juridico');
         $data = array();
-        $this->load->view('servicios/servicios_juridica', $data);
+        $this->load->view('servicios/servicios_juridico', $data);
     }
 
     public function recorridos_virtuales(){
@@ -53,15 +53,15 @@ class Servicios extends CI_Controller
         }
     }
 
-    public function reclutamiento_de_TI(){
+    public function reclutamiento_de_ti(){
         $this->cargar_idioma->carga_lang('servicios/servicios_reclutamiento');
         $data = array();
         $this->load->view('servicios/servicios_reclutamiento', $data);
     }
 
-    public function arquitectura_empresarial(){
-        $this->cargar_idioma->carga_lang('servicios/servicios_arquitectura');
+    public function coaching_empresarial(){
+        $this->cargar_idioma->carga_lang('servicios/servicios_coaching_empresarial');
         $data = array();
-        $this->load->view('servicios/servicios_arquitectura', $data);
+        $this->load->view('servicios/servicios_coaching_empresarial', $data);
     }
 }
