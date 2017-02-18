@@ -175,7 +175,7 @@
             address: "New York, NY 10017",
             html: "<strong><?php echo WNO;?></strong><br><?php echo WNO_DIRECCION;?>",
             icon: {
-                image: "img/pin-light.png",
+                image: "<?php echo cdn_assets();?>/assets/img/pin-light.png",
                 iconsize: [26, 46],
                 iconanchor: [12, 46]
             },

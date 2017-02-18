@@ -3050,11 +3050,28 @@ window.theme.fn = {
 
 					var $logoWrapper = self.options.wrapper.find('.header-logo'),
 						$logo = $logoWrapper.find('img'),
-						logoWidth = $logo.attr('width'),
-						logoHeight = $logo.attr('height'),
+						logoWidth = $logo.attr('data-width'),
+						logoHeight = $logo.attr('data-height'),
+                        logoMobileWidth = $logo.attr('data-mobile-width'),
+                        logoMobileHeight = $logo.attr('data-mobile-height'),
 						logoSmallTop = parseInt($logo.attr('data-sticky-top') ? $logo.attr('data-sticky-top') : 0),
 						logoSmallWidth = parseInt($logo.attr('data-sticky-width') ? $logo.attr('data-sticky-width') : 'auto'),
-						logoSmallHeight = parseInt($logo.attr('data-sticky-height') ? $logo.attr('data-sticky-height') : 'auto');
+						logoSmallHeight = parseInt($logo.attr('data-sticky-height') ? $logo.attr('data-sticky-height') : 'auto'),
+						isMobile = ($window.width() < 385);
+
+					if(isMobile){
+                        $logo.css({
+                            'top': 0,
+                            'width': logoMobileWidth,
+                            'height': logoMobileHeight
+                        });
+					} else{
+                        $logo.css({
+                            'top': 0,
+                            'width': logoWidth,
+                            'height': logoHeight
+                        });
+                    }
 
 					if (self.options.stickyChangeLogoWrapper) {
 						$logoWrapper.css({
@@ -3071,11 +3088,19 @@ window.theme.fn = {
 								'height': logoSmallHeight
 							});
 						} else {
-							$logo.css({
-								'top': 0,
-								'width': logoWidth,
-								'height': logoHeight
-							});
+							if(isMobile){
+                                $logo.css({
+                                    'top': 0,
+                                    'width': logoMobileWidth,
+                                    'height': logoMobileHeight
+                                });
+							}else{
+                                $logo.css({
+                                    'top': 0,
+                                    'width': logoWidth,
+                                    'height': logoHeight
+                                });
+							}
 						}
 					}
 

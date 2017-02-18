@@ -10,7 +10,7 @@
                 <div class="header-column">
                     <div class="header-logo">
                         <a href="<?php echo base_url_lang(); ?>">
-                            <img alt="<?php echo WNO;?>" width="210" height="54" data-sticky-width="163" data-sticky-height="40" data-sticky-top="33" src="<?php echo cdn_assets();?>/assets/img/wno-menu-dark.png">
+                            <img alt="<?php echo WNO;?>" width="163" height="40" data-width="210" data-height="54" data-mobile-width="163" data-mobile-height="40" data-sticky-width="163" data-sticky-height="40" data-sticky-top="33" src="<?php echo cdn_assets();?>/assets/img/wno-menu-dark.png">
                         </a>
                     </div>
                 </div>
