@@ -98,7 +98,7 @@
                         <?php echo trans_line('p_02'); ?>
                     </p>
 
-                    <img src="<?php echo cdn_assets(); ?>/assets/img/demos/business-consulting/cases/case-4.jpg" style="max-width: 260px;"
+                    <img src="<?php echo cdn_assets(); ?>/assets/img/demos/business-consulting/cases/reclutamiento.jpg" style="max-width: 260px;"
                          class="img-responsive pull-right ml-xl mb-xl" alt="">
 
                     <p>
