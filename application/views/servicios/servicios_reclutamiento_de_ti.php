@@ -133,31 +133,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a class="accordion-toggle collapsed" data-toggle="collapse"
-                                       data-parent="#preg_frecuentes" href="#preg_04" aria-expanded="false">
-                                        <?php echo trans_line('faq_04'); ?>
-                                        <span class="custom-accordion-plus"></span>
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="preg_04" class="accordion-body collapse" aria-expanded="false"
-                                 style="height: 0px;">
-                                <div class="panel-body">
-                                    <p><?php echo trans_line('faq_04_ans'); ?></p>
-                                </div>
-                            </div>
-                        </div>
                     </div>
 
-                    <p>
-                        <?php echo trans_line('p_04'); ?>
-                    </p>
                 </div>
                 <div class="col-md-4">
-                    <img src="<?php echo base_url(); ?>/assets/img/demos/business-consulting/cases/case-3.jpg"
+                    <img src="<?php echo base_url(); ?>/assets/img/demos/business-consulting/cases/reclutamiento.jpg"
                          class="img-responsive mb-xl" alt="">
 
                     <h4 class="font-weight-bold text-color-dark mt-xlg pt-sm"><?php echo trans_line('estr_titulo'); ?></h4>

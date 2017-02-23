@@ -172,7 +172,8 @@
                                             <img class="counter-icon"
                                                  src="<?php echo cdn_assets(); ?>/assets/img/demos/business-consulting/icons/icon-1.png"
                                                  alt/>
-                                            <strong class="text-color-primary custom-primary-font" data-to="12"
+                                            <strong class="text-color-primary custom-primary-font"
+                                                    data-to="<?php echo WNO_ANOS_EXPERIENCIA; ?>"
                                                     data-append="+">0</strong>
                                             <label><?php echo trans_line('about_us_counter_1'); ?></label>
                                         </div>
@@ -184,7 +185,8 @@
                                             <img class="counter-icon"
                                                  src="<?php echo cdn_assets(); ?>/assets/img/demos/business-consulting/icons/icon-2.png"
                                                  alt/>
-                                            <strong class="text-color-primary custom-primary-font" data-to="955"
+                                            <strong class="text-color-primary custom-primary-font"
+                                                    data-to="<?php echo WNO_CASOS_EXITOSOS; ?>"
                                                     data-append="+">0</strong>
                                             <label><?php echo trans_line('about_us_counter_2'); ?></label>
                                         </div>
@@ -198,7 +200,8 @@
                                             <img class="counter-icon"
                                                  src="<?php echo cdn_assets(); ?>/assets/img/demos/business-consulting/icons/icon-3.png"
                                                  alt/>
-                                            <strong class="text-color-primary custom-primary-font" data-to="1013"
+                                            <strong class="text-color-primary custom-primary-font"
+                                                    data-to="<?php echo WNO_CLIENTES_SATISFECHOS; ?>"
                                                     data-append="+">0</strong>
                                             <label><?php echo trans_line('about_us_counter_3'); ?></label>
                                         </div>
@@ -210,7 +213,8 @@
                                             <img class="counter-icon"
                                                  src="<?php echo cdn_assets(); ?>/assets/img/demos/business-consulting/icons/icon-4.png"
                                                  alt/>
-                                            <strong class="text-color-primary custom-primary-font" data-to="70"
+                                            <strong class="text-color-primary custom-primary-font"
+                                                    data-to="<?php echo WNO_CONSULTORES; ?>"
                                                     data-append="+">0</strong>
                                             <label><?php echo trans_line('about_us_counter_4'); ?></label>
                                         </div>
@@ -283,17 +287,17 @@
                 </div>
                 <div class="row">
                     <div class="col-md-4">
-                        <a href="<?php echo base_url_lang(); ?>servicios/arquitectura-empresarial"
+                        <a href="<?php echo base_url_lang(); ?>servicios/coaching-empresarial"
                            class="text-decoration-none appear-animation" data-appear-animation="fadeInUp"
                            data-appear-animation-delay="300">
                             <div class="feature-box custom-feature-box feature-box-style-2">
                                 <div class="feature-box-icon">
                                     <img src="<?php echo cdn_assets(); ?>/assets/img/demos/business-consulting/expertise/expertise-6.jpg"
-                                         alt="<?php echo trans_line('ae_title'); ?>">
+                                         alt="<?php echo trans_line('coaching_empresarial_title'); ?>">
                                 </div>
                                 <div class="feature-box-info ml-md">
-                                    <h4 class="font-weight-normal text-lg"><?php echo trans_line('ae_title'); ?></h4>
-                                    <p><?php echo trans_line('ae_desc'); ?></p>
+                                    <h4 class="font-weight-normal text-lg"><?php echo trans_line('coaching_empresarial_title'); ?></h4>
+                                    <p><?php echo trans_line('coaching_empresarial_desc'); ?></p>
                                 </div>
                             </div>
                         </a>
@@ -503,43 +507,7 @@
                     <a href="<?php echo base_url_lang(); ?>casos" class="text-decoration-none">
                         <span class="thumb-info custom-thumb-info-style-1 thumb-info-hide-wrapper-bg">
                             <span class="thumb-info-wrapper m-none">
-                                <img src="<?php echo cdn_assets(); ?>/assets/img/demos/business-consulting/cases/case-1.jpg"
-                                     class="img-responsive"
-                                     alt="<?php echo trans_line('suc_recorridos_1_title'); ?>">
-                            </span>
-                            <span class="thumb-info-caption background-color-secondary p-md pt-xlg pb-xlg">
-                                <span class="custom-thumb-info-title">
-                                    <span class="custom-thumb-info-name font-weight-semibold text-color-dark text-md"><?php echo trans_line('suc_recorridos_1_title'); ?></span>
-                                    <span class="custom-thumb-info-desc font-weight-light"><?php echo trans_line('suc_recorridos_1_sub'); ?></span>
-                                </span>
-                                <span class="custom-arrow"></span>
-                            </span>
-                        </span>
-                    </a>
-                </div>
-                <div>
-                    <a href="<?php echo base_url_lang(); ?>casos" class="text-decoration-none">
-                        <span class="thumb-info custom-thumb-info-style-1 thumb-info-hide-wrapper-bg">
-                            <span class="thumb-info-wrapper m-none">
-                                <img src="<?php echo cdn_assets(); ?>/assets/img/demos/business-consulting/cases/case-2.jpg"
-                                     class="img-responsive"
-                                     alt="<?php echo trans_line('suc_contabilidad_1_title'); ?>">
-                            </span>
-                            <span class="thumb-info-caption background-color-secondary p-md pt-xlg pb-xlg">
-                                <span class="custom-thumb-info-title">
-                                    <span class="custom-thumb-info-name font-weight-semibold text-color-dark text-md"><?php echo trans_line('suc_contabilidad_1_title'); ?></span>
-                                    <span class="custom-thumb-info-desc font-weight-light"><?php echo trans_line('suc_contabilidad_1_sub'); ?></span>
-                                </span>
-                                <span class="custom-arrow"></span>
-                            </span>
-                        </span>
-                    </a>
-                </div>
-                <div>
-                    <a href="<?php echo base_url_lang(); ?>casos" class="text-decoration-none">
-                        <span class="thumb-info custom-thumb-info-style-1 thumb-info-hide-wrapper-bg">
-                            <span class="thumb-info-wrapper m-none">
-                                <img src="<?php echo cdn_assets(); ?>/assets/img/demos/business-consulting/cases/case-3.jpg"
+                                <img src="<?php echo cdn_assets(); ?>/assets/img/demos/business-consulting/cases/sucesion.jpg"
                                      class="img-responsive"
                                      alt="<?php echo trans_line('suc_juridico_1_title'); ?>">
                             </span>
@@ -557,68 +525,14 @@
                     <a href="<?php echo base_url_lang(); ?>casos" class="text-decoration-none">
                         <span class="thumb-info custom-thumb-info-style-1 thumb-info-hide-wrapper-bg">
                             <span class="thumb-info-wrapper m-none">
-                                <img src="<?php echo cdn_assets(); ?>/assets/img/demos/business-consulting/cases/case-4.jpg"
+                                <img src="<?php echo cdn_assets(); ?>/assets/img/demos/business-consulting/cases/oficinas-virtuales-amuebladas.jpg"
                                      class="img-responsive"
-                                     alt="<?php echo trans_line('suc_software_1_title'); ?>">
+                                     alt="<?php echo trans_line('suc_recorridos_1_title'); ?>">
                             </span>
                             <span class="thumb-info-caption background-color-secondary p-md pt-xlg pb-xlg">
                                 <span class="custom-thumb-info-title">
-                                    <span class="custom-thumb-info-name font-weight-semibold text-color-dark text-md"><?php echo trans_line('suc_software_1_title'); ?></span>
-                                    <span class="custom-thumb-info-desc font-weight-light"><?php echo trans_line('suc_software_1_sub'); ?></span>
-                                </span>
-                                <span class="custom-arrow"></span>
-                            </span>
-                        </span>
-                    </a>
-                </div>
-                <div>
-                    <a href="<?php echo base_url_lang(); ?>casos" class="text-decoration-none">
-                        <span class="thumb-info custom-thumb-info-style-1 thumb-info-hide-wrapper-bg">
-                            <span class="thumb-info-wrapper m-none">
-                                <img src="<?php echo cdn_assets(); ?>/assets/img/demos/business-consulting/cases/case-5.jpg"
-                                     class="img-responsive"
-                                     alt="<?php echo trans_line('suc_reclutamiento_1_title'); ?>">
-                            </span>
-                            <span class="thumb-info-caption background-color-secondary p-md pt-xlg pb-xlg">
-                                <span class="custom-thumb-info-title">
-                                    <span class="custom-thumb-info-name font-weight-semibold text-color-dark text-md"><?php echo trans_line('suc_reclutamiento_1_title'); ?></span>
-                                    <span class="custom-thumb-info-desc font-weight-light"><?php echo trans_line('suc_reclutamiento_1_sub'); ?></span>
-                                </span>
-                                <span class="custom-arrow"></span>
-                            </span>
-                        </span>
-                    </a>
-                </div>
-                <div>
-                    <a href="<?php echo base_url_lang(); ?>casos" class="text-decoration-none">
-                        <span class="thumb-info custom-thumb-info-style-1 thumb-info-hide-wrapper-bg">
-                            <span class="thumb-info-wrapper m-none">
-                                <img src="<?php echo cdn_assets(); ?>/assets/img/demos/business-consulting/cases/case-1.jpg"
-                                     class="img-responsive"
-                                     alt="">
-                            </span>
-                            <span class="thumb-info-caption background-color-secondary p-md pt-xlg pb-xlg">
-                                <span class="custom-thumb-info-title">
-                                    <span class="custom-thumb-info-name font-weight-semibold text-color-dark text-md"><?php echo trans_line('success_6_title'); ?></span>
-                                    <span class="custom-thumb-info-desc font-weight-light"><?php echo trans_line('success_6_sub'); ?></span>
-                                </span>
-                                <span class="custom-arrow"></span>
-                            </span>
-                        </span>
-                    </a>
-                </div>
-                <div>
-                    <a href="<?php echo base_url_lang(); ?>casos" class="text-decoration-none">
-                        <span class="thumb-info custom-thumb-info-style-1 thumb-info-hide-wrapper-bg">
-                            <span class="thumb-info-wrapper m-none">
-                                <img src="<?php echo cdn_assets(); ?>/assets/img/demos/business-consulting/cases/case-2.jpg"
-                                     class="img-responsive"
-                                     alt="">
-                            </span>
-                            <span class="thumb-info-caption background-color-secondary p-md pt-xlg pb-xlg">
-                                <span class="custom-thumb-info-title">
-                                    <span class="custom-thumb-info-name font-weight-semibold text-color-dark text-md"><?php echo trans_line('success_7_title'); ?></span>
-                                    <span class="custom-thumb-info-desc font-weight-light"><?php echo trans_line('success_7_sub'); ?></span>
+                                    <span class="custom-thumb-info-name font-weight-semibold text-color-dark text-md"><?php echo trans_line('suc_recorridos_1_title'); ?></span>
+                                    <span class="custom-thumb-info-desc font-weight-light"><?php echo trans_line('suc_recorridos_1_sub'); ?></span>
                                 </span>
                                 <span class="custom-arrow"></span>
                             </span>
@@ -631,12 +545,12 @@
                             <span class="thumb-info-wrapper m-none">
                                 <img src="<?php echo cdn_assets(); ?>/assets/img/demos/business-consulting/cases/case-3.jpg"
                                      class="img-responsive"
-                                     alt="">
+                                     alt="<?php echo trans_line('suc_juridico_2_title'); ?>">
                             </span>
                             <span class="thumb-info-caption background-color-secondary p-md pt-xlg pb-xlg">
                                 <span class="custom-thumb-info-title">
-                                    <span class="custom-thumb-info-name font-weight-semibold text-color-dark text-md"><?php echo trans_line('success_8_title'); ?></span>
-                                    <span class="custom-thumb-info-desc font-weight-light"><?php echo trans_line('success_8_sub'); ?></span>
+                                    <span class="custom-thumb-info-name font-weight-semibold text-color-dark text-md"><?php echo trans_line('suc_juridico_2_title'); ?></span>
+                                    <span class="custom-thumb-info-desc font-weight-light"><?php echo trans_line('suc_juridico_2_sub'); ?></span>
                                 </span>
                                 <span class="custom-arrow"></span>
                             </span>
@@ -647,14 +561,50 @@
                     <a href="<?php echo base_url_lang(); ?>casos" class="text-decoration-none">
                         <span class="thumb-info custom-thumb-info-style-1 thumb-info-hide-wrapper-bg">
                             <span class="thumb-info-wrapper m-none">
-                                <img src="<?php echo cdn_assets(); ?>/assets/img/demos/business-consulting/cases/case-4.jpg"
+                                <img src="<?php echo cdn_assets(); ?>/assets/img/demos/business-consulting/cases/contabilidad.jpg"
                                      class="img-responsive"
-                                     alt="<?php echo trans_line('suc_software_2_title'); ?>">
+                                     alt="<?php echo trans_line('suc_contabilidad_1_title'); ?>">
                             </span>
                             <span class="thumb-info-caption background-color-secondary p-md pt-xlg pb-xlg">
                                 <span class="custom-thumb-info-title">
-                                    <span class="custom-thumb-info-name font-weight-semibold text-color-dark text-md"><?php echo trans_line('suc_software_2_title'); ?></span>
-                                    <span class="custom-thumb-info-desc font-weight-light"><?php echo trans_line('suc_software_2_sub'); ?></span>
+                                    <span class="custom-thumb-info-name font-weight-semibold text-color-dark text-md"><?php echo trans_line('suc_contabilidad_1_title'); ?></span>
+                                    <span class="custom-thumb-info-desc font-weight-light"><?php echo trans_line('suc_contabilidad_1_sub'); ?></span>
+                                </span>
+                                <span class="custom-arrow"></span>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div>
+                    <a href="<?php echo base_url_lang(); ?>casos" class="text-decoration-none">
+                        <span class="thumb-info custom-thumb-info-style-1 thumb-info-hide-wrapper-bg">
+                            <span class="thumb-info-wrapper m-none">
+                                <img src="<?php echo cdn_assets(); ?>/assets/img/demos/business-consulting/cases/case-5.jpg"
+                                     class="img-responsive"
+                                     alt="<?php echo trans_line('suc_juridico_3_title'); ?>">
+                            </span>
+                            <span class="thumb-info-caption background-color-secondary p-md pt-xlg pb-xlg">
+                                <span class="custom-thumb-info-title">
+                                    <span class="custom-thumb-info-name font-weight-semibold text-color-dark text-md"><?php echo trans_line('suc_juridico_3_title'); ?></span>
+                                    <span class="custom-thumb-info-desc font-weight-light"><?php echo trans_line('suc_juridico_3_sub'); ?></span>
+                                </span>
+                                <span class="custom-arrow"></span>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div>
+                    <a href="<?php echo base_url_lang(); ?>casos" class="text-decoration-none">
+                        <span class="thumb-info custom-thumb-info-style-1 thumb-info-hide-wrapper-bg">
+                            <span class="thumb-info-wrapper m-none">
+                                <img src="<?php echo cdn_assets(); ?>/assets/img/demos/business-consulting/cases/reclutamiento.jpg"
+                                     class="img-responsive"
+                                     alt="<?php echo trans_line('suc_juridico_3_title'); ?>">
+                            </span>
+                            <span class="thumb-info-caption background-color-secondary p-md pt-xlg pb-xlg">
+                                <span class="custom-thumb-info-title">
+                                    <span class="custom-thumb-info-name font-weight-semibold text-color-dark text-md"><?php echo trans_line('suc_reclutamiento_1_title'); ?></span>
+                                    <span class="custom-thumb-info-desc font-weight-light"><?php echo trans_line('suc_reclutamiento_1_sub'); ?></span>
                                 </span>
                                 <span class="custom-arrow"></span>
                             </span>
@@ -668,7 +618,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 class="font-weight-bold text-color-dark">- <?php echo trans_line('exp_title'); ?></h2>
+                        <h2 class="font-weight-bold text-color-dark">- <?php echo trans_line('testimonios_title'); ?></h2>
                     </div>
                 </div>
                 <div class="row">
@@ -678,17 +628,17 @@
                             <div>
                                 <div class="col-xs-8 col-sm-4 col-md-2 center pt-xlg">
                                     <img src="<?php echo cdn_assets(); ?>/assets/img/demos/business-consulting/testimonials/ova.png"
-                                         alt
+                                         alt=""
                                          class="img-responsive custom-rounded-image"/>
                                 </div>
                                 <div class="col-xs-12 col-sm-12 col-md-10">
                                     <div class="testimonial custom-testimonial-style-1 testimonial-with-quotes mb-none">
                                         <blockquote class="pb-sm">
-                                            <p><?php echo trans_line('exp_1_desc'); ?></p>
+                                            <p><?php echo trans_line('testimonios_1_desc'); ?></p>
                                         </blockquote>
                                         <div class="testimonial-author pull-left">
-                                            <p><strong><?php echo trans_line('exp_1_name'); ?></strong><span
-                                                        class="text-color-primary"><?php echo trans_line('exp_1_name_sub'); ?></span>
+                                            <p><strong><?php echo trans_line('testimonios_1_name'); ?></strong><span
+                                                        class="text-color-primary"><?php echo trans_line('testimonios_1_name_sub'); ?></span>
                                             </p>
                                         </div>
                                     </div>
@@ -697,17 +647,17 @@
                             <div>
                                 <div class="col-xs-8 col-sm-4 col-md-2 center pt-xlg">
                                     <img src="<?php echo cdn_assets(); ?>/assets/img/demos/business-consulting/testimonials/icognitis.png"
-                                         alt
+                                         alt=""
                                          class="img-responsive custom-rounded-image"/>
                                 </div>
                                 <div class="col-xs-12 col-sm-12 col-md-10">
                                     <div class="testimonial custom-testimonial-style-1 testimonial-with-quotes mb-none">
                                         <blockquote class="pb-sm">
-                                            <p><?php echo trans_line('exp_2_desc'); ?></p>
+                                            <p><?php echo trans_line('testimonios_2_desc'); ?></p>
                                         </blockquote>
                                         <div class="testimonial-author pull-left">
-                                            <p><strong><?php echo trans_line('exp_2_name'); ?></strong><span
-                                                        class="text-color-primary"><?php echo trans_line('exp_2_name_sub'); ?></span>
+                                            <p><strong><?php echo trans_line('testimonios_2_name'); ?></strong><span
+                                                        class="text-color-primary"><?php echo trans_line('testimonios_2_name_sub'); ?></span>
                                             </p>
                                         </div>
                                     </div>
@@ -732,7 +682,8 @@
                         </div>
                     </div>
                     <div class="col-sm-3 col-md-2">
-                        <a class="text-decoration-none" href="tel:<?php echo TEL_VENTAS; ?>" target="_blank" title="Call Us Now">
+                        <a class="text-decoration-none" href="tel:<?php echo TEL_VENTAS; ?>" target="_blank"
+                           title="Call Us Now">
                             <span class="custom-call-to-action white-border text-color-light mt-xlg">
                                 <span class="action-title"><?php echo trans_line('slider_promo_call'); ?></span>
                                 <span class="action-info"><?php echo TEL_VENTAS; ?></span>
@@ -742,55 +693,55 @@
                     <div class="col-sm-3 col-md-4">
                         <a class="text-decoration-none" href="<?php echo base_url_lang() . 'contacto' ?>"
                            title="Email Us Now">
-									<span class="custom-call-to-action white-border text-color-light mt-xlg">
-										<span class="action-title"><?php echo trans_line('slider_promo_mail'); ?></span>
-										<span class="action-info"><?php echo MAIL_CONTACTO; ?></span>
-									</span>
+                            <span class="custom-call-to-action white-border text-color-light mt-xlg">
+                                <span class="action-title"><?php echo trans_line('slider_promo_mail'); ?></span>
+                                <span class="action-info"><?php echo MAIL_CONTACTO; ?></span>
+                            </span>
                         </a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="custom-section-padding">
+        <!--<section class="custom-section-padding">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 class="font-weight-bold text-color-dark">- <?php echo trans_line('news_title'); ?></h2>
+                        <h2 class="font-weight-bold text-color-dark">- <?php /*echo trans_line('news_title'); */?></h2>
                     </div>
                 </div>
                 <div class="row">
                     <article class="blog-post">
                         <div class="col-sm-8 col-md-5">
                             <div class="blog-post-image-wrapper">
-                                <img src="<?php echo cdn_assets(); ?>/assets/img/demos/business-consulting/blog/blog-1.jpg"
-                                     alt
+                                <img src="<?php /*echo cdn_assets(); */?>/assets/img/demos/business-consulting/blog/blog-1.jpg"
+                                     alt=""
                                      class="img-responsive mb-lg"/>
                                 <span class="blog-post-date background-color-primary text-color-light font-weight-bold">
-									<?php echo trans_line('news_1_date'); ?>
+									<?php /*echo trans_line('news_1_date'); */?>
                                 </span>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-7">
-                            <h2> <?php echo trans_line('news_1_title'); ?></h2>
-                            <p><?php echo trans_line('news_1_desc'); ?></p>
+                            <h2> <?php /*echo trans_line('news_1_title'); */?></h2>
+                            <p><?php /*echo trans_line('news_1_desc'); */?></p>
                             <hr class="solid">
                             <div class="post-infos">
                                 <span class="info posted-by">
-                                    <?php echo trans_line('news_pub'); ?>
+                                    <?php /*echo trans_line('news_pub'); */?>
                                     <span class="post-author font-weight-semibold text-color-dark">
-                                        <?php echo trans_line('news_1_name'); ?>
+                                        <?php /*echo trans_line('news_1_name'); */?>
                                     </span>
                                 </span>
                             </div>
                             <a class="btn btn-borders custom-border-width btn-primary custom-border-radius font-weight-semibold text-uppercase mt-xlg"
-                               href="<?php echo base_url_lang(); ?>"
-                               title="<?php echo trans_line('news_button'); ?>"><?php echo trans_line('news_button'); ?></a>
+                               href="<?php /*echo base_url_lang(); */?>"
+                               title="<?php /*echo trans_line('news_button'); */?>"><?php /*echo trans_line('news_button'); */?></a>
                         </div>
                     </article>
                 </div>
             </div>
-        </section>
+        </section>-->
     </div>
 
     <!-- Footer -->

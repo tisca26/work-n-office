@@ -86,20 +86,17 @@ class Contacto extends CI_Controller
     public function enviar_correo()
     {
         $this->cargar_idioma->carga_lang('contacto/contacto_index');
-        $this->form_validation->set_rules('nombre', trans_line('contacto_form_nombre'), 'required|trim|min_length[3]|max_length[40]');
-        $this->form_validation->set_rules('correo', trans_line('contacto_form_mail'), 'required|trim|valid_email|max_length[40]');
-        $this->form_validation->set_rules('telefono', trans_line('contacto_form_telefono'), 'required|trim|min_length[7]|numeric|max_length[20]');
-        $this->form_validation->set_rules('asunto', trans_line('contacto_form_asunto'), 'required|trim|min_length[3]|max_length[100]');
+        $this->form_validation->set_rules('nombre', trans_line('contacto_form_nombre'), 'required|trim|min_length[3]|max_length[100]');
+        $this->form_validation->set_rules('email', trans_line('contacto_form_mail'), 'required|trim|valid_email|max_length[100]');
+        $this->form_validation->set_rules('telefono', trans_line('contacto_form_telefono'), 'required|trim|min_length[7]|numeric|max_length[20]');;
         $this->form_validation->set_rules('mensaje', trans_line('contacto_form_mensaje'), 'required|trim|min_length[3]|max_length[1000]');
         if ($this->form_validation->run() == FALSE) {
             $this->index();
         } else {
-            $receptor_mail = $this->input->post('correo');
+            $receptor_mail = $this->input->post('email');
             $receptor_nombre = $this->input->post('nombre');
-            $receptor_telefono = $this->input->post('telefono');
-            $receptor_asunto = $this->input->post('asunto');
             $receptor_mensaje = $this->input->post('mensaje');
-            $estado = $this->_enviar_correo_a_ventas($receptor_nombre, $receptor_mail, $receptor_telefono, $receptor_asunto, $receptor_mensaje);
+            $estado = $this->_enviar_correo_a_ventas($receptor_nombre, $receptor_mail, $receptor_mensaje);
             $estado2 = $this->_enviar_correo_a_prospecto($receptor_nombre, $receptor_mail);
             if($estado) {
                 if($estado2) {
@@ -116,7 +113,7 @@ class Contacto extends CI_Controller
         }
     }
 
-    private function _enviar_correo_a_ventas($receptor_nombre = '', $receptor_mail = '', $receptor_telefono = '', $receptor_asunto = '', $receptor_mensaje = '')
+    private function _enviar_correo_a_ventas($receptor_nombre = '', $receptor_mail = '', $receptor_mensaje = '')
     {
         $mail = new PHPMailer();
         $mail->SMTPOptions = array(
@@ -140,14 +137,12 @@ class Contacto extends CI_Controller
         $mail->CharSet = 'UTF-8';
         $mail->ContentType = 'text/html; charset=utf-8\r\n';
         $mail->isHTML(true);
-        $mail->setFrom('contacto@oficinas-virtuales-amuebladas.com', 'Página Web OVA');
-        $mail->Subject = "Nuevo prospecto - OVA";
-        $mail->addAddress('contacto@oficinas-virtuales-amuebladas.com', 'Contacto OVA');
+        $mail->setFrom('soluciones@work-n-office.com', 'Página Web W&O');
+        $mail->Subject = "Nuevo prospecto - W&O";
+        $mail->addAddress('soluciones@work-n-office.com', 'Contacto W&O');
 
         $data['receptor_nombre'] = $receptor_nombre;
         $data['receptor_mail'] = $receptor_mail;
-        $data['receptor_telefono'] = $receptor_telefono;
-        $data['receptor_asunto'] = $receptor_asunto;
         $data['receptor_mensaje'] = $receptor_mensaje;
         $cuerpo_mensaje = $this->load->view('contacto/contacto_email_ventas', $data, TRUE);
 

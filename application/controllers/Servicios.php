@@ -46,17 +46,17 @@ class Servicios extends CI_Controller
                 $this->load->view('servicios/servicios_desarrollo_extra2', $data);
                 break;
             default:
-                $this->cargar_idioma->carga_lang('servicios/servicios_desarrollo');
+                $this->cargar_idioma->carga_lang('servicios/servicios_desarrollo_de_software');
                 $data = array();
-                $this->load->view('servicios/servicios_desarrollo', $data);
+                $this->load->view('servicios/servicios_desarrollo_de_software', $data);
                 break;
         }
     }
 
     public function reclutamiento_de_ti(){
-        $this->cargar_idioma->carga_lang('servicios/servicios_reclutamiento');
+        $this->cargar_idioma->carga_lang('servicios/servicios_reclutamiento_de_ti');
         $data = array();
-        $this->load->view('servicios/servicios_reclutamiento', $data);
+        $this->load->view('servicios/servicios_reclutamiento_de_ti', $data);
     }
 
     public function coaching_empresarial(){

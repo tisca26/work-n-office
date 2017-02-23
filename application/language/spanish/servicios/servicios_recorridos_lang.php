@@ -54,8 +54,3 @@ $lang['estr_02_p_01'] = 'Generamos una propuesta del trabajo, así como versione
 $lang['estr_03_num'] = '03';
 $lang['estr_03_titulo'] = 'Reunión Final<br> <strong>Tu Recorrido Virtual 360°</strong>';
 $lang['estr_03_p_01'] = 'Entregamos el producto final en el formato establecido, dando acceso desde cualquier dispositivo y con tecnología de punta. <strong>¡Tu recorrido virtual 360° está listo!</strong>';
-
-
-
-
-

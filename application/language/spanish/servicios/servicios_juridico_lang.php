@@ -12,7 +12,7 @@ $lang['breadcrumb_pagina'] = 'Servicios';
 $lang['breadcrumb_subpagina'] = 'Asesoría Jurídica';
 
 $lang['p_01'] = 'El ámbito empresarial está regido por diversas disposiciones jurídicas que requieren una asesoría especializada de abogados con amplia experiencia en esta materia, que ofrezcan a la empresa una visión objetiva y profesional para el cumplimiento de sus obligaciones.';
-$lang['p_02'] = 'El Derecho comprende entre otros servicios, la estructura y desarrollo de negocios, asesoría y reestructura corporativa, inversiones extranjeras, sociedades controladoras, coinversiones, actualización y mantenimiento de libros corporativos, derechos de los accionistas, asambleas y juntas de consejo, incremento y disminución de capital, registros corporativos, venta de acciones, partes sociales y activos, auditorias legales (due diligence) y emisión de opiniones jurídicas.';
+$lang['p_02'] = 'El Derecho Corporativo comprende entre otros servicios, la estructura y desarrollo de negocios, asesoría y reestructura corporativa, inversiones extranjeras, sociedades controladoras, coinversiones, actualización y mantenimiento de libros corporativos, derechos de los accionistas, asambleas y juntas de consejo, incremento y disminución de capital, registros corporativos, venta de acciones, partes sociales y activos, auditorias legales (due diligence) y emisión de opiniones jurídicas.';
 $lang['p_03'] = 'Entre las ramas que nos especializamos, contamos con:';
 
 $lang['cat_01'] = 'Litigio Civil y Mercantil';

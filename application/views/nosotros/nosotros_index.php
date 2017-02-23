@@ -30,10 +30,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>- Nosotros <span>¿Quienes somos?</span></h1>
+                        <h1>- <?php echo trans_line('titulo'); ?> <span><?php echo trans_line('sub_titulo'); ?></span></h1>
                         <ul class="breadcrumb breadcrumb-valign-mid">
-                            <li><a href="demo-business-consulting.html">Inicio</a></li>
-                            <li class="active">Nosotros</li>
+                            <li><a href="<?php echo base_url_lang(); ?>"><?php echo trans_line('breadcrumb_inicio'); ?></a></li>
+                            <li class="active"><?php echo trans_line('breadcrumb_pagina'); ?></li>
                         </ul>
                     </div>
                 </div>
@@ -44,40 +44,40 @@
             <div class="row pt-xs pb-xl mb-md">
                 <div class="col-md-12">
                     <p class="lead mb-xl">
-                        Work & Office es un grupo de empresas que abarca una gama de servicios especializados en las áreas funcionales corporativas. Nuestra excelencia individual se ve reforzada por la integración. Buscamos atender las necesidades y situaciones que nuestros clientes presenten a lo largo de su desarrollo empresarial, ofreciéndoles soluciones basadas en nuestra experiencia y conocimientos.
+                        <?php echo trans_line('p_01'); ?>
                     </p>
 
                     <p>
-                        Generamos soluciones que se ajustan a su situación actual, generando un lazo de confianza derivado de nuestra experiencia y conocimiento. Nos enfocamos en:
+                        <?php echo trans_line('p_02'); ?>
                     </p>
 
                     <div class="row pb-xl">
                         <div class="col-md-4">
                             <ul class="list list-icons list-icons-style-3 list-tertiary">
-                                <li><i class="fa fa-chevron-right"></i> Desarrollo de Software</li>
-                                <li><i class="fa fa-chevron-right"></i> Coaching Empresarial</li>
+                                <li><i class="fa fa-chevron-right"></i> <?php echo trans_line('li_serv_01'); ?></li>
+                                <li><i class="fa fa-chevron-right"></i> <?php echo trans_line('li_serv_02'); ?></li>
                             </ul>
                         </div>
                         <div class="col-md-4">
                             <ul class="list list-icons list-icons-style-3 list-tertiary">
-                                <li><i class="fa fa-chevron-right"></i> Asesoría Jurídica</li>
-                                <li><i class="fa fa-chevron-right"></i> Contabilidad Corporativa</li>
+                                <li><i class="fa fa-chevron-right"></i> <?php echo trans_line('li_serv_03'); ?></li>
+                                <li><i class="fa fa-chevron-right"></i> <?php echo trans_line('li_serv_06'); ?></li>
                             </ul>
                         </div>
                         <div class="col-md-4">
                             <ul class="list list-icons list-icons-style-3 list-tertiary">
-                                <li><i class="fa fa-chevron-right"></i> Recorridos Virtuales</li>
-                                <li><i class="fa fa-chevron-right"></i> Reclutamiento de TI</li>
+                                <li><i class="fa fa-chevron-right"></i> <?php echo trans_line('li_serv_05'); ?></li>
+                                <li><i class="fa fa-chevron-right"></i> <?php echo trans_line('li_serv_06'); ?></li>
                             </ul>
                         </div>
                     </div>
 
                     <p>
-                        Todas las empresas del Grupo Work & Office, trabajan en un nivel altamente profesional y están comprometidas con los más altos estándares de calidad y servicio. Los efectos de sinergia de las diversas filiales del grupo, permiten a la empresa suministrar servicios individuales para tareas integrales.
+                        <?php echo trans_line('p_03'); ?>
                     </p>
 
                     <p>
-                        Con la mejora continua de nuestros procesos, así como con el avance tecnológico, somos capaces de ofrecer a nuestros clientes las soluciones adaptadas, modernas y orientadas al futuro que esperan. Estamos convencidos que la atención, confianza y experiencia son parte fundamental de un buen servicio, es por eso que contamos con profesionales de alta calidad, especializados en su rama que podrán ayudarte en la búsqueda de la mejor solución.
+                        <?php echo trans_line('p_04'); ?>
                     </p>
 
                     <div class="row content-grid-row pb-md pt-xl">
@@ -86,7 +86,7 @@
                                 <div class="counter custom-sm-counter-style">
                                     <img class="counter-icon" src="<?php echo cdn_assets();?>/assets/img/demos/business-consulting/icons/icon-1.png" alt />
                                     <strong class="text-color-primary custom-primary-font pt-md pb-none" data-to="<?php echo WNO_ANOS_EXPERIENCIA; ?>" data-append="+">0</strong>
-                                    <label>Años en Negocio</label>
+                                    <label><?php echo trans_line('anos_negocio'); ?></label>
                                 </div>
                             </div>
                         </div>
@@ -95,7 +95,7 @@
                                 <div class="counter custom-sm-counter-style">
                                     <img class="counter-icon" src="<?php echo cdn_assets();?>/assets/img/demos/business-consulting/icons/icon-2.png" alt />
                                     <strong class="text-color-primary custom-primary-font pt-md pb-none" data-to="<?php echo WNO_CASOS_EXITOSOS; ?>" data-append="+">0</strong>
-                                    <label>Casos Exitosos</label>
+                                    <label><?php echo trans_line('casos_ex'); ?></label>
                                 </div>
                             </div>
                         </div>
@@ -104,7 +104,7 @@
                                 <div class="counter">
                                     <img class="counter-icon" src="<?php echo cdn_assets();?>/assets/img/demos/business-consulting/icons/icon-3.png" alt />
                                     <strong class="text-color-primary custom-primary-font pt-md pb-none" data-to="<?php echo WNO_CLIENTES_SATISFECHOS; ?>" data-append="+">0</strong>
-                                    <label>Clientes Satisfechos</label>
+                                    <label><?php echo trans_line('clientes_sat'); ?></label>
                                 </div>
                             </div>
                         </div>
@@ -113,14 +113,14 @@
                                 <div class="counter">
                                     <img class="counter-icon" src="<?php echo cdn_assets();?>/assets/img/demos/business-consulting/icons/icon-4.png" alt />
                                     <strong class="text-color-primary custom-primary-font pt-md pb-none" data-to="<?php echo WNO_CONSULTORES; ?>" data-append="+">0</strong>
-                                    <label>Consultores Profesionales</label>
+                                    <label><?php echo trans_line('consultores_pro'); ?></label>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <p>
-                        Los desafíos que presenta la situación empresarial en nuestro país nos motivan a seguir creciendo y ayudar a nuestros clientes a superarse. Cuando se trata del éxito de su empresa, la rapidez y flexibilidad marcan la diferencia, es por esto que siempre tenemos en cuenta las últimas tendencias en software, cambios a la miscelánea fiscal y reglamentos autorizados, colaborando estrechamente con usted para desarrollar una solución que cubra sus necesidades.
+                        <?php echo trans_line('p_05'); ?>
                     </p>
 
 
@@ -137,7 +137,7 @@
                     </div>
 
                     <p>
-                        La investigación, innovación y crecimiento son parte de nuestra rutina diaria para entregar el mejor servicio posible y hacer crecer a nuestros clientes.
+                        <?php echo trans_line('p_06'); ?>
                     </p>
 
                 </div>

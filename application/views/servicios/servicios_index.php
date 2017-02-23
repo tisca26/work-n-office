@@ -30,10 +30,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>- Servicios <span>¿Qué hacemos?</span></h1>
+                        <h1>- <?php echo trans_line('titulo'); ?> <span><?php echo trans_line('sub_titulo'); ?></span></h1>
                         <ul class="breadcrumb breadcrumb-valign-mid">
-                            <li><a href="demo-business-consulting.html">Inicio</a></li>
-                            <li class="active">Servicios</li>
+                            <li><a href="<?php echo base_url_lang(); ?>"><?php echo trans_line('breadcrumb_inicio'); ?></a></li>
+                            <li class="active"><?php echo trans_line('breadcrumb_pagina'); ?></li>
                         </ul>
                     </div>
                 </div>
@@ -51,51 +51,9 @@
                                     <img src="<?php echo cdn_assets();?>/assets/img/demos/business-consulting/expertise/expertise-1.jpg" alt="">
                                 </div>
                                 <div class="feature-box-info ml-md">
-                                    <h4 class="font-weight-normal text-xl">Corporate Finance</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu semper tellus, at condimentum tortor. Curabitur pulvinar orci nunc, at facilisis nisl vehicula tristique. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce eget est viverra, venenatis.</p>
-                                    <a href="demo-business-consulting-expertise-detail.html">Read More <i class="fa fa-long-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="feature-box custom-feature-box custom-feature-box-active feature-box-style-2">
-                                <div class="feature-box-icon">
-                                    <img src="<?php echo cdn_assets();?>/assets/img/demos/business-consulting/expertise/expertise-2.jpg" alt="">
-                                </div>
-                                <div class="feature-box-info ml-md">
-                                    <h4 class="font-weight-normal text-xl">Asesoría Fiscal</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu semper tellus, at condimentum tortor. Curabitur pulvinar orci nunc, at facilisis nisl vehicula tristique. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce eget est viverra, venenatis.</p>
-                                    <a href="demo-business-consulting-expertise-detail.html">Read More <i class="fa fa-long-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="feature-box custom-feature-box custom-feature-box-active feature-box-style-2">
-                                <div class="feature-box-icon">
-                                    <img src="<?php echo cdn_assets();?>/assets/img/demos/business-consulting/expertise/expertise-3.jpg" alt="">
-                                </div>
-                                <div class="feature-box-info ml-md">
-                                    <h4 class="font-weight-normal text-xl">Recorridos Virtuales 360</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu semper tellus, at condimentum tortor. Curabitur pulvinar orci nunc, at facilisis nisl vehicula tristique. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce eget est viverra, venenatis.</p>
-                                    <a href="demo-business-consulting-expertise-detail.html">Read More <i class="fa fa-long-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="feature-box custom-feature-box custom-feature-box-active feature-box-style-2">
-                                <div class="feature-box-icon">
-                                    <img src="<?php echo cdn_assets();?>/assets/img/demos/business-consulting/expertise/expertise-4.jpg" alt="">
-                                </div>
-                                <div class="feature-box-info ml-md">
-                                    <h4 class="font-weight-normal text-xl">Desarrollo de Software</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu semper tellus, at condimentum tortor. Curabitur pulvinar orci nunc, at facilisis nisl vehicula tristique. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce eget est viverra, venenatis.</p>
-                                    <a href="demo-business-consulting-expertise-detail.html">Read More <i class="fa fa-long-arrow-right"></i></a>
+                                    <h4 class="font-weight-normal text-xl"><?php echo trans_line('contabilidad_title'); ?></h4>
+                                    <p><?php echo trans_line('contabilidad_desc'); ?></p>
+                                    <a href="<?php echo base_url_lang() . 'servicios/contabilidad-corporativa'; ?>"><?php echo trans_line('leer_mas'); ?> <i class="fa fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -107,9 +65,23 @@
                                     <img src="<?php echo cdn_assets();?>/assets/img/demos/business-consulting/expertise/expertise-5.jpg" alt="">
                                 </div>
                                 <div class="feature-box-info ml-md">
-                                    <h4 class="font-weight-normal text-xl">Reclutamiento de TI</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu semper tellus, at condimentum tortor. Curabitur pulvinar orci nunc, at facilisis nisl vehicula tristique. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce eget est viverra, venenatis.</p>
-                                    <a href="demo-business-consulting-expertise-detail.html">Read More <i class="fa fa-long-arrow-right"></i></a>
+                                    <h4 class="font-weight-normal text-xl"><?php echo trans_line('juridico_title'); ?></h4>
+                                    <p><?php echo trans_line('juridico_desc'); ?></p>
+                                    <a href="<?php echo base_url_lang() . 'servicios/asesoria-juridica'; ?>"><?php echo trans_line('leer_mas'); ?> <i class="fa fa-long-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="feature-box custom-feature-box custom-feature-box-active feature-box-style-2">
+                                <div class="feature-box-icon">
+                                    <img src="<?php echo cdn_assets();?>/assets/img/demos/business-consulting/expertise/recorridos.jpg" alt="">
+                                </div>
+                                <div class="feature-box-info ml-md">
+                                    <h4 class="font-weight-normal text-xl"><?php echo trans_line('recorridos_title'); ?></h4>
+                                    <p><?php echo trans_line('recorridos_desc'); ?></p>
+                                    <a href="<?php echo base_url_lang() . 'servicios/recorridos-virtuales'; ?>"><?php echo trans_line('leer_mas'); ?> <i class="fa fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -121,9 +93,37 @@
                                     <img src="<?php echo cdn_assets();?>/assets/img/demos/business-consulting/expertise/expertise-6.jpg" alt="">
                                 </div>
                                 <div class="feature-box-info ml-md">
-                                    <h4 class="font-weight-normal text-xl">Arquitectura Empresarial</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu semper tellus, at condimentum tortor. Curabitur pulvinar orci nunc, at facilisis nisl vehicula tristique. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce eget est viverra, venenatis.</p>
-                                    <a href="demo-business-consulting-expertise-detail.html">Read More <i class="fa fa-long-arrow-right"></i></a>
+                                    <h4 class="font-weight-normal text-xl"><?php echo trans_line('coaching_empresarial_title'); ?></h4>
+                                    <p><?php echo trans_line('coaching_empresarial_desc'); ?></p>
+                                    <a href="<?php echo base_url_lang() . 'servicios/coaching-empresarial'; ?>"><?php echo trans_line('leer_mas'); ?> <i class="fa fa-long-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="feature-box custom-feature-box custom-feature-box-active feature-box-style-2">
+                                <div class="feature-box-icon">
+                                    <img src="<?php echo cdn_assets();?>/assets/img/demos/business-consulting/expertise/expertise-4.jpg" alt="">
+                                </div>
+                                <div class="feature-box-info ml-md">
+                                    <h4 class="font-weight-normal text-xl"><?php echo trans_line('reclutamiento_ti_title'); ?></h4>
+                                    <p><?php echo trans_line('reclutamiento_ti_desc'); ?></p>
+                                    <a href="<?php echo base_url_lang() . 'servicios/reclutamiento-de-ti'; ?>"><?php echo trans_line('leer_mas'); ?> <i class="fa fa-long-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="feature-box custom-feature-box custom-feature-box-active feature-box-style-2">
+                                <div class="feature-box-icon">
+                                    <img src="<?php echo cdn_assets();?>/assets/img/demos/business-consulting/expertise/software.jpg" alt="">
+                                </div>
+                                <div class="feature-box-info ml-md">
+                                    <h4 class="font-weight-normal text-xl"><?php echo trans_line('software_title'); ?></h4>
+                                    <p><?php echo trans_line('software_desc'); ?></p>
+                                    <a href="<?php echo base_url_lang() . 'servicios/desarrollo-de-software'; ?>"><?php echo trans_line('leer_mas'); ?> <i class="fa fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>

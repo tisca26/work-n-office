@@ -167,7 +167,7 @@
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <img src="<?php echo base_url(); ?>/assets/img/demos/business-consulting/cases/case-5.jpg"
+                    <img src="<?php echo base_url(); ?>/assets/img/demos/business-consulting/cases/recorridos.jpg"
                          class="img-responsive mb-xl" alt="">
 
                     <h4 class="font-weight-bold text-color-dark mt-xlg pt-sm"><?php echo trans_line('estr_titulo'); ?></h4>

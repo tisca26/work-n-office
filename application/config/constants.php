@@ -105,7 +105,7 @@ defined('GOOGLE_PLUS_WNO')          OR define('GOOGLE_PLUS_WNO', 'https://plus.g
 defined('WNO')                      OR define('WNO','Work & Office');
 defined('WNO_DIRECCION')            OR define('WNO_DIRECCION','Calzada General Mariano Escobedo 510, Anzures, Ciudad de México, México.');
 defined('MAPS_KEY')                 OR define('MAPS_KEY','AIzaSyCHynOAAKAhh9wRBi5ychItPqUei9DQhxo');
-defined('TEL_VENTAS')               OR define('TEL_VENTAS', '55-4395-4034');
+defined('TEL_VENTAS')               OR define('TEL_VENTAS', '55-5564-5333');
 defined('MAIL_VENTAS')              OR define('MAIL_VENTAS', 'soluciones@work-n-office.com');
 defined('MAIL_CONTACTO')            OR define('MAIL_CONTACTO', 'soluciones@work-n-office.com');
 defined('WNO_ANOS_EXPERIENCIA')     OR define('WNO_ANOS_EXPERIENCIA', 12);

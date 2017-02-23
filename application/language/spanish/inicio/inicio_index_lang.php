@@ -51,6 +51,9 @@ $lang['reclutamiento_ti_title'] = 'Reclutamiento de TI';
 $lang['reclutamiento_ti_desc'] = 'Suministro de personal temporal y permanente, selección especializada de personal, y consultoría en TI.';
 $lang['software_title'] = 'Desarrollo de Software';
 $lang['software_desc'] = 'Desarrollo de aplicaciones móviles y web, licenciamiento con Oracle y Windows';
+$lang['coaching_empresarial_title'] = 'Coaching Empresarial';
+$lang['coaching_empresarial_desc'] = 'Proceso de entrenamiento para los líderes de una organización, el cual se les faculta para sacar lo mejor de ellas misma.';
+
 
 $lang['services_button'] = 'Conocer todos los servicios';
 
@@ -93,30 +96,24 @@ $lang['success_title'] = 'Casos de Éxito';
 $lang['suc_recorridos_1_title'] = 'Recorridos Virtuales';
 $lang['suc_recorridos_1_sub'] = 'Oficinas Virtuales Amuebladas';
 $lang['suc_contabilidad_1_title'] = 'Contabilidad Corporativa';
-$lang['suc_contabilidad_1_sub'] = '...';
+$lang['suc_contabilidad_1_sub'] = 'Icognitis';
 $lang['suc_juridico_1_title'] = 'Asesoría Jurídica';
-$lang['suc_juridico_1_sub'] = '...';
-$lang['suc_software_1_title'] = 'Desarrollo de Software';
-$lang['suc_software_1_sub'] = 'Grupo Termo';
+$lang['suc_juridico_1_sub'] = 'Sucesión';
+$lang['suc_juridico_2_title'] = 'Asesoría Jurídica';
+$lang['suc_juridico_2_sub'] = 'Recuperación de Cartera';
+$lang['suc_juridico_3_title'] = 'Asesoría Jurídica';
+$lang['suc_juridico_3_sub'] = 'Constitución de Sociedad e Inversión Extranjera';
 $lang['suc_reclutamiento_1_title'] = 'Reclutamiento de TI';
-$lang['suc_reclutamiento_1_sub'] = 'Darch BPS';
-$lang['success_6_title'] = 'Litigación';
-$lang['success_6_sub'] = '...';
-$lang['success_7_title'] = 'Consultoría Empresarial';
-$lang['success_7_sub'] = '...';
-$lang['success_8_title'] = 'Consultoría de Marca';
-$lang['success_8_sub'] = '...';
-$lang['suc_software_2_title'] = 'Desarrollo a la Medida';
-$lang['suc_software_2_sub'] = 'Traducciones Científicas';
+$lang['suc_reclutamiento_1_sub'] = 'Darch';
 
-$lang['exp_title'] = 'Testimonios';
+$lang['testimonios_title'] = 'Testimonios';
 
-$lang['exp_1_desc'] = 'Excelentes recorridos virtuales, lo hicieron fácil y rápido. El precio se ajustó a mi presupuesto y ahora tengo más clientes gracias a que pueden conocer mis instalaciones desde sus dispositivos.';
-$lang['exp_1_name'] = 'Gabriel Tiscareño';
-$lang['exp_1_name_sub'] = 'Director Comercial - Oficinas Virtuales Amuebladas';
-$lang['exp_2_desc'] = 'Tenía un desorden en mi contabilidad, Work & Office no solo la arregló, si no que mejoré en muchos aspectos. Ahora pago mis impuestos de manera justa y oportuna.';
-$lang['exp_2_name'] = 'Batsi Cardenas';
-$lang['exp_2_name_sub'] = 'CEO & Co-Fundadora - Icognitis';
+$lang['testimonios_1_desc'] = 'Excelentes recorridos virtuales, lo hicieron fácil y rápido. El precio se ajustó a mi presupuesto y ahora tengo más clientes gracias a que pueden conocer mis instalaciones desde sus dispositivos.';
+$lang['testimonios_1_name'] = 'Gabriel Tiscareño';
+$lang['testimonios_1_name_sub'] = 'Director Comercial - Oficinas Virtuales Amuebladas';
+$lang['testimonios_2_desc'] = 'Tenía un desorden en mi contabilidad, Work & Office no solo la arregló, si no que mejoré en muchos aspectos. Ahora pago mis impuestos de manera justa y oportuna.';
+$lang['testimonios_2_name'] = 'Batsi Cardenas';
+$lang['testimonios_2_name_sub'] = 'CEO & Co-Fundadora - Icognitis';
 
 $lang['franja_call_to_action_title'] = '¿Busca ayuda con su empresa?';
 $lang['franja_call_to_action_desc'] = '¿Tiene algún problema Fiscal, Contable o de Sistemas?';

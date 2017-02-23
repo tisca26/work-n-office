@@ -77,18 +77,6 @@
                                                     <a href="<?php echo base_url_lang();?>servicios/desarrollo-de-software">
                                                         <?php echo trans_line('menu_serv_software');?>
                                                     </a>
-                                                    <ul>
-                                                        <li>
-                                                            <a href="<?php echo base_url_lang();?>servicios/desarrollo-de-software/extra-1">
-                                                                <?php echo trans_line('menu_opt_3_sub_4_sub_1');?>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="<?php echo base_url_lang();?>servicios/desarrollo-de-software/extra-2">
-                                                                <?php echo trans_line('menu_opt_3_sub_4_sub_2');?>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
                                                 </li>
                                                 <li>
                                                     <a href="<?php echo base_url_lang();?>servicios/reclutamiento-de-ti">

@@ -32,7 +32,7 @@
                     <div class="col-md-12">
                         <h1>- Contacto <span>Envíanos un E-mail o llámanos</span></h1>
                         <ul class="breadcrumb breadcrumb-valign-mid">
-                            <li><a href="demo-business-consulting.html">Inicio</a></li>
+                            <li><a href="<?php echo base_url_lang(); ?>">Inicio</a></li>
                             <li class="active">Contacto</li>
                         </ul>
                     </div>
@@ -44,15 +44,17 @@
             <div class="row pt-xs pb-xl mb-md">
                 <div class="col-md-8">
 
-                    <h2 class="font-weight-bold text-color-dark">- Send a Message</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat ex finibus urna tincidunt, auctor ullamcorper risus luctus. Nunc et feugiat arcu, in placerat risus. Phasellus condimentum sapien vitae.</p>
+                    <h2 class="font-weight-bold text-color-dark">- Envíanos un correo</h2>
+                    <p>
+                        Ponte en contacto con nosotros, aclararemos todas tus dudas y podemos generar una cotización sin compromiso. Confía en nuestros expertos.
+                    </p>
 
                     <div class="alert alert-success hidden mt-lg" id="contactSuccess">
-                        <strong>Success!</strong> Your message has been sent to us.
+                        <strong>¡Éxito!</strong> Tu mensaje fue enviado.
                     </div>
 
                     <div class="alert alert-danger hidden mt-lg" id="contactError">
-                        <strong>Error!</strong> There was an error sending your message.
+                        <strong>¡Error!</strong> Hubo un error al enviar tu mensaje.
                         <span class="font-size-xs mt-sm display-block" id="mailErrorMessage"></span>
                     </div>
 
@@ -62,7 +64,7 @@
                                 <div class="col-md-12">
                                     <div class="custom-input-box">
                                         <i class="icon-user icons text-color-primary"></i>
-                                        <input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" placeholder="Name*" required>
+                                        <input type="text" value="" data-msg-required="Ingrese su nombre por favor." maxlength="100" class="form-control" name="name" id="name" placeholder="Nombre*" required>
                                     </div>
                                 </div>
                             </div>
@@ -72,7 +74,7 @@
                                 <div class="col-md-12">
                                     <div class="custom-input-box">
                                         <i class="icon-envelope icons text-color-primary"></i>
-                                        <input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" placeholder="Email*" required>
+                                        <input type="email" value="" data-msg-required="Ingrese su correo electrónico por favor" data-msg-email="Ingrese un correo electrónico válido por favor" maxlength="100" class="form-control" name="email" id="email" placeholder="Email*" required>
                                     </div>
                                 </div>
                             </div>
@@ -82,14 +84,14 @@
                                 <div class="col-md-12">
                                     <div class="custom-input-box">
                                         <i class="icon-bubble icons text-color-primary"></i>
-                                        <textarea maxlength="5000" data-msg-required="Please enter your message." rows="10" class="form-control" name="message" id="message" placeholder="Message*" required></textarea>
+                                        <textarea maxlength="5000" data-msg-required="Ingrese su mensaje por favor." rows="10" class="form-control" name="message" id="message" placeholder="Mensaje*" required></textarea>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <input type="submit" value="Submit Now" class="btn btn-borders custom-border-width btn-primary custom-border-radius font-weight-semibold text-uppercase mb-xlg" data-loading-text="Loading...">
+                                <input type="submit" value="Enviar ahora" class="btn btn-borders custom-border-width btn-primary custom-border-radius font-weight-semibold text-uppercase mb-xlg" data-loading-text="Cargando...">
                             </div>
                         </div>
                     </form>
@@ -103,7 +105,7 @@
                                     <i class="icon-location-pin icons"></i>
                                 </div>
                                 <div class="feature-box-info">
-                                    <h2 class="font-weight-bold text-color-dark">- Address</h2>
+                                    <h2 class="font-weight-bold text-color-dark">- Dirección</h2>
                                     <p class="font-size-lg">
                                         <?php echo WNO_DIRECCION;?>
                                     </p>
@@ -118,7 +120,7 @@
                                     <i class="icon-phone icons"></i>
                                 </div>
                                 <div class="feature-box-info">
-                                    <h2 class="font-weight-bold text-color-dark">- Phone</h2>
+                                    <h2 class="font-weight-bold text-color-dark">- Teléfono</h2>
                                     <p class="font-size-lg">
                                         <?php echo TEL_VENTAS;?>
                                     </p>
@@ -135,7 +137,7 @@
                                 <div class="feature-box-info">
                                     <h2 class="font-weight-bold text-color-dark">- Email</h2>
                                     <p class="font-size-lg">
-                                        <a href="mailto:<?php echo MAIL_CONTACTO;?>" class="text-decoration-none"><?php echo MAIL_CONTACTO;?></a><br>
+                                        <a href="<?php echo base_url_lang(). 'contacto';?>" class="text-decoration-none"><?php echo MAIL_CONTACTO;?></a><br>
                                     </p>
                                 </div>
                             </div>
@@ -172,10 +174,10 @@
 
         // Map Markers
         var mapMarkers = [{
-            address: "New York, NY 10017",
+            address: "Calzada General Mariano Escobedo 510, Anzures, Ciudad de México, México",
             html: "<strong><?php echo WNO;?></strong><br><?php echo WNO_DIRECCION;?>",
             icon: {
-                image: "<?php echo cdn_assets();?>/assets/img/pin-light.png",
+                image: "<?php echo cdn_assets();?>/assets/img/pin.png",
                 iconsize: [26, 46],
                 iconanchor: [12, 46]
             },
@@ -183,8 +185,8 @@
         }];
 
         // Map Initial Location
-        var initLatitude = 40.75198;
-        var initLongitude = -73.96978;
+        var initLatitude = 19.4318968;
+        var initLongitude = -99.1832036;
 
         // Map Extended Settings
         var mapSettings = {
