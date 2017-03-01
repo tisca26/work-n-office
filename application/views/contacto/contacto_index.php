@@ -58,13 +58,23 @@
                         <span class="font-size-xs mt-sm display-block" id="mailErrorMessage"></span>
                     </div>
 
-                    <form id="contactForm" class="custom-contact-form-style-1" action="php/contact-form.php" method="POST">
+                    <?php echo form_open(base_url_lang() . 'contacto/enviar_correo', 'id="contactForm" class="custom-contact-form-style-1"') ?>
                         <div class="row">
                             <div class="form-group">
                                 <div class="col-md-12">
                                     <div class="custom-input-box">
                                         <i class="icon-user icons text-color-primary"></i>
-                                        <input type="text" value="" data-msg-required="Ingrese su nombre por favor." maxlength="100" class="form-control" name="name" id="name" placeholder="Nombre*" required>
+                                        <input type="text" value="" data-msg-required="Ingrese su nombre por favor." maxlength="100" class="form-control" name="nombre" id="nombre" placeholder="Nombre*" required>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <div class="custom-input-box">
+                                        <i class="icon-phone icons text-color-primary"></i>
+                                        <input type="text" value="" data-msg-required="Ingrese su teléfono por favor." maxlength="20" class="form-control" name="telefono" id="telefono" placeholder="Teléfono*" required>
                                     </div>
                                 </div>
                             </div>
@@ -84,7 +94,7 @@
                                 <div class="col-md-12">
                                     <div class="custom-input-box">
                                         <i class="icon-bubble icons text-color-primary"></i>
-                                        <textarea maxlength="5000" data-msg-required="Ingrese su mensaje por favor." rows="10" class="form-control" name="message" id="message" placeholder="Mensaje*" required></textarea>
+                                        <textarea maxlength="5000" data-msg-required="Ingrese su mensaje por favor." rows="10" class="form-control" name="mensaje" id="mensaje" placeholder="Mensaje*" required></textarea>
                                     </div>
                                 </div>
                             </div>
@@ -94,7 +104,7 @@
                                 <input type="submit" value="Enviar ahora" class="btn btn-borders custom-border-width btn-primary custom-border-radius font-weight-semibold text-uppercase mb-xlg" data-loading-text="Cargando...">
                             </div>
                         </div>
-                    </form>
+                    <?php form_close(); ?>
                 </div>
                 <div class="col-md-4">
 

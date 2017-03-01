@@ -26,6 +26,8 @@
 <!-- Demo -->
 <script src="<?php echo cdn_assets();?>/assets/js/demos/demo-business-consulting.js"></script>
 
+<!-- Notificaciones -->
+<script type="text/javascript" src="<?php echo cdn_assets();?>/assets/js/noty/packaged/jquery.noty.packaged.min.js"></script>
 <!-- Theme Custom -->
 <script src="<?php echo cdn_assets();?>/assets/js/custom.js"></script>
 

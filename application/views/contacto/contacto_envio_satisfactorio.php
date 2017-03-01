@@ -5,315 +5,231 @@
     <!-- Carga extra -->
     <?php $this->cargar_elementos_manager->carga_simple('elementos_extras/head_first'); ?>
 
-    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-    <meta name="author" content="Icognitis SA de CV"/>
-    <meta name="description" content="<?php echo trans_line('metatag_desc'); ?>">
-    <meta name="keywords" content="<?php echo trans_line('metatag_keywords'); ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-
-    <!-- Stylesheets
-    ============================================= -->
-    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic"
-          rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" href="<?php echo cdn_assets(); ?>assets/css/bootstrap.css" type="text/css"/>
-    <link rel="stylesheet" href="<?php echo cdn_assets(); ?>assets/style.css" type="text/css"/>
-    <link rel="stylesheet" href="<?php echo cdn_assets(); ?>assets/css/font-icons.css" type="text/css"/>
-    <link rel="stylesheet" href="<?php echo cdn_assets(); ?>assets/css/animate.css" type="text/css"/>
-    <link rel="stylesheet" href="<?php echo cdn_assets(); ?>assets/css/magnific-popup.css" type="text/css"/>
-    <link rel="stylesheet" href="<?php echo cdn_assets(); ?>assets/css/responsive.css" type="text/css"/>
-
-    <link rel="stylesheet" href="<?php echo cdn_assets(); ?>assets/css/colors.css" type="text/css"/>
-
-
     <!-- Document Title
     ============================================= -->
     <title><?php echo trans_line('title_tag'); ?></title>
+
     <!-- Carga extra -->
     <?php $this->cargar_elementos_manager->carga_simple('elementos_extras/head_last'); ?>
 
 </head>
 
-<body class="stretched no-transition">
+<body>
+
 <!-- Carga extra  -->
 <?php $this->cargar_elementos_manager->carga_simple('elementos_extras/body_first'); ?>
-<!-- Document Wrapper
-============================================= -->
-<div id="wrapper" class="clearfix">
+
+<div class="body">
 
     <!-- Menu generado -->
     <?php $this->menu_manager->generar_menu(); ?>
-    <!-- /Menu generado -->
 
-    <section id="page-title" class="bgcolor page-title-dark page-title-mini" >
-        <div class="container clearfix">
-            <h1><?php echo trans_line('contacto_page_title');?></h1>
-            <span><?php echo trans_line('contacto_page_title_sub');?></span>
-            <ol class="breadcrumb">
-                <li><a href="<?php echo base_url_lang();?>">OVA</a></li>
-                <li class="active"><?php echo trans_line('contacto_page_title');?></li>
-            </ol>
-        </div>
-    </section>
+    <div role="main" class="main">
 
-    <!-- Content
-    ============================================= -->
-    <section id="content" style="margin-bottom:0px;">
-        <div class="content-wrap">
+        <section class="page-header page-header-color page-header-quaternary page-header-more-padding custom-page-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>- Contacto <span>Envíanos un E-mail o llámanos</span></h1>
+                        <ul class="breadcrumb breadcrumb-valign-mid">
+                            <li><a href="<?php echo base_url_lang(); ?>">Inicio</a></li>
+                            <li class="active">Contacto</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <div class="container clearfix">
+        <div class="container">
+            <div class="row pt-xs pb-xl mb-md">
+                <div class="col-md-8">
 
-                <!-- Postcontent
-                ============================================= -->
-                <div class="postcontent nobottommargin">
+                    <h2 class="font-weight-bold text-color-dark">- Envíanos un correo</h2>
+                    <p>
+                        Ponte en contacto con nosotros, aclararemos todas tus dudas y podemos generar una cotización sin compromiso. Confía en nuestros expertos.
+                    </p>
 
                     <div class="contact-form-result">
                         <?php echo get_bootstrap_alert(); ?>
                         <?php echo validation_errors('<div class="alert alert-danger">', '</div>'); ?>
                     </div>
 
-                    <div class="fancy-title title-bottom-border">
-                        <h3><?php echo trans_line('contacto_form_title');?></h3>
+                    <div class="alert alert-success hidden mt-lg" id="contactSuccess">
+                        <strong>¡Éxito!</strong> Tu mensaje fue enviado.
                     </div>
 
-                    <div>
-                        <?php echo form_open(base_url_lang()."contacto/enviar_correo", array('id' => 'current_form', 'class' => '')); ?>
-                        <div class="form-process"></div>
-
-                        <div class="col_one_third">
-                            <label for="contactform-name"><?php echo trans_line('contacto_form_nombre');?>
-                                <small>*</small>
-                            </label>
-                            <?php echo form_input('nombre', set_value('nombre'), 'id="nombre" class="sm-form-control required"'); ?>
-                        </div>
-
-                        <div class="col_one_third">
-                            <label for="contactform-email"><?php echo trans_line('contacto_form_mail');?>
-                                <small>*</small>
-                            </label>
-                            <input type="email" id="correo" name="correo" value="<?php echo set_value('correo') ?>"
-                                   class="required email sm-form-control"/>
-                        </div>
-
-                        <div class="col_one_third col_last">
-                            <label for="contactform-phone"><?php echo trans_line('contacto_form_telefono');?>
-                                <small>*</small>
-                            </label>
-                            <input type="text" id="telefono" name="telefono" value="<?php echo set_value('telefono')?>"
-                                   class="required sm-form-control"/>
-                        </div>
-
-                        <div class="clear"></div>
-
-                        <div class="col_full">
-                            <label for="contactform-subject"><?php echo trans_line('contacto_form_asunto');?>
-                                <small>*</small>
-                            </label>
-                            <input type="text" id="asunto" name="asunto" value="<?php echo set_value('asunto')?>"
-                                   class="required sm-form-control"/>
-                        </div>
-
-                        <div class="clear"></div>
-
-                        <div class="col_full">
-                            <label for="contactform-message"><?php echo trans_line('contacto_form_mensaje');?>
-                                <small>*</small>
-                            </label>
-                            <textarea class="required sm-form-control" id="mensaje"
-                                      name="mensaje" rows="6" cols="30"><?php echo set_value('mensaje')?></textarea>
-                        </div>
-
-                        <!--                            <div class="col_full hidden">-->
-                        <!--                                <input type="text" id="contactform-botcheck" name="contactform-botcheck" value=""-->
-                        <!--                                       class="sm-form-control"/>-->
-                        <!--                            </div>-->
-                        <!---->
-                        <!--                            <div class="col_full">-->
-                        <!---->
-                        <!--                                <script src="https://www.google.com/recaptcha/api.js" async defer></script>-->
-                        <!--                                <div class="g-recaptcha" data-sitekey="6LczdRwTAAAAAGXe85WhD4HoSvBATQbloHLherto"></div>-->
-                        <!---->
-                        <!--                            </div>-->
-
-                        <div class="col_full">
-                            <button class="button button-3d nomargin" type="submit" id="btn_submit"
-                                    name="contactform-submit" value="submit"><?php echo trans_line('contacto_form_enviar');?>
-                            </button>
-                        </div>
-
-                        <?php echo form_close(); ?>
-
+                    <div class="alert alert-danger hidden mt-lg" id="contactError">
+                        <strong>¡Error!</strong> Hubo un error al enviar tu mensaje.
+                        <span class="font-size-xs mt-sm display-block" id="mailErrorMessage"></span>
                     </div>
 
-                </div><!-- .postcontent end -->
+                    <?php echo form_open(base_url_lang() . 'contacto/enviar_correo', 'id="contactForm" class="custom-contact-form-style-1"') ?>
+                    <div class="row">
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                <div class="custom-input-box">
+                                    <i class="icon-user icons text-color-primary"></i>
+                                    <input type="text" value="" data-msg-required="Ingrese su nombre por favor." maxlength="100" class="form-control" name="nombre" id="nombre" placeholder="Nombre*" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                <div class="custom-input-box">
+                                    <i class="icon-phone icons text-color-primary"></i>
+                                    <input type="text" value="" data-msg-required="Ingrese su teléfono por favor." maxlength="20" class="form-control" name="telefono" id="telefono" placeholder="Teléfono*" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                <div class="custom-input-box">
+                                    <i class="icon-envelope icons text-color-primary"></i>
+                                    <input type="email" value="" data-msg-required="Ingrese su correo electrónico por favor" data-msg-email="Ingrese un correo electrónico válido por favor" maxlength="100" class="form-control" name="email" id="email" placeholder="Email*" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                <div class="custom-input-box">
+                                    <i class="icon-bubble icons text-color-primary"></i>
+                                    <textarea maxlength="5000" data-msg-required="Ingrese su mensaje por favor." rows="10" class="form-control" name="mensaje" id="mensaje" placeholder="Mensaje*" required></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <input type="submit" value="Enviar ahora" class="btn btn-borders custom-border-width btn-primary custom-border-radius font-weight-semibold text-uppercase mb-xlg" data-loading-text="Cargando...">
+                        </div>
+                    </div>
+                    <?php form_close(); ?>
+                </div>
+                <div class="col-md-4">
 
-                <!-- Sidebar
-                ============================================= -->
-                <div class="sidebar col_last nobottommargin">
-
-                    <div class="widget widget_links clearfix">
-
-                        <h4><?php echo trans_line('contacto_sucursales_titulo_2');?></h4>
-                        <ul>
-                            <li><a href="<?php echo base_url_lang(); ?>oficinas-virtuales"><div><?php echo trans_line('contacto_otros_1');?></div></a></li>
-                            <li><a href="<?php echo base_url_lang(); ?>oficinas-amuebladas"><div><?php echo trans_line('contacto_otros_2');?></div></a></li>
-                            <li><a href="<?php echo base_url_lang(); ?>recorrido-360"><div><?php echo trans_line('contacto_otros_3');?></div></a></li>
-                        </ul>
+                    <div class="row mb-xl">
+                        <div class="col-md-12">
+                            <div class="feature-box feature-box-style-2">
+                                <div class="feature-box-icon mt-xs">
+                                    <i class="icon-location-pin icons"></i>
+                                </div>
+                                <div class="feature-box-info">
+                                    <h2 class="font-weight-bold text-color-dark">- Dirección</h2>
+                                    <p class="font-size-lg">
+                                        <?php echo WNO_DIRECCION;?>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-xl">
+                        <div class="col-md-12">
+                            <div class="feature-box feature-box-style-2">
+                                <div class="feature-box-icon mt-xs">
+                                    <i class="icon-phone icons"></i>
+                                </div>
+                                <div class="feature-box-info">
+                                    <h2 class="font-weight-bold text-color-dark">- Teléfono</h2>
+                                    <p class="font-size-lg">
+                                        <?php echo TEL_VENTAS;?>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-xl">
+                        <div class="col-md-12">
+                            <div class="feature-box feature-box-style-2">
+                                <div class="feature-box-icon mt-xs">
+                                    <i class="icon-envelope icons"></i>
+                                </div>
+                                <div class="feature-box-info">
+                                    <h2 class="font-weight-bold text-color-dark">- Email</h2>
+                                    <p class="font-size-lg">
+                                        <a href="<?php echo base_url_lang(). 'contacto';?>" class="text-decoration-none"><?php echo MAIL_CONTACTO;?></a><br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
-
-                    <div class="widget clearfix">
-
-                        <h4><?php echo trans_line('contacto_sucursales_contacto');?></h4>
-                        <ul class="iconlist">
-                            <li><i class="icon-call"></i><?php echo TEL_VENTAS;?></li>
-                            <li><i class="icon-mail"></i><?php echo MAIL_CONTACTO;?></li>
-                        </ul>
-
-                        <a href="<?php echo FACEBOOK_OVA;?>" target="_blank" class="social-icon si-colored si-small si-facebook" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook">
-                            <i class="icon-facebook"></i>
-                            <i class="icon-facebook"></i>
-                        </a>
-
-                        <a href="<?php echo TWITTER_OVA;?>" target="_blank" class="social-icon si-colored si-small si-twitter" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter">
-                            <i class="icon-twitter"></i>
-                            <i class="icon-twitter"></i>
-                        </a>
-
-                        <a href="<?php echo GOOGLE_PLUS_OVA;?>" target="_blank" class="social-icon si-colored si-small si-gplus" data-toggle="tooltip" data-placement="top" title="" data-original-title="Google+">
-                            <i class="icon-gplus"></i>
-                            <i class="icon-gplus"></i>
-                        </a>
-
-                    </div>
-
-                </div><!-- .sidebar end -->
+                </div>
 
             </div>
 
         </div>
 
+        <!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
+        <div id="googlemaps" class="google-map mt-xlg mb-none"></div>
 
-    </section><!-- #content end -->
+
+    </div>
 
     <!-- Footer -->
     <?php $this->cargar_elementos_manager->carga_con_lang('footers/footer_uno'); ?>
-    <!-- /Footer -->
 
-</div><!-- #wrapper end -->
-
-<!-- Go To Top
-============================================= -->
-<div id="gotoTop" class="icon-angle-up"></div>
+</div>
 
 <!-- External JavaScripts
 ============================================= -->
-<script type="text/javascript" src="<?php echo cdn_assets(); ?>assets/js/jquery.js"></script>
-<script type="text/javascript" src="<?php echo cdn_assets(); ?>assets/js/plugins.js"></script>
-
-<!-- Footer Scripts
-============================================= -->
-<script type="text/javascript" src="<?php echo cdn_assets(); ?>assets/js/functions.js"></script>
-
-<script type="text/javascript">
-
-    $(document).ready(function () {
-        var form1 = $('#current_form');
-
-        form1.validate({
-            errorElement: 'span', //default input error message container
-            errorClass: 'text-danger', // default input error message class
-            focusInvalid: false, // do not focus the last invalid input
-            ignore: "", // validate all fields including form hidden input
-            messages: {
-                correo:{
-                    required: "<?php echo trans_line('required'); ?>",
-                    email: "<?php echo trans_line('correo'); ?>",
-                    minlength: jQuery.validator.format("<?php echo trans_line('minlength'); ?>")
-                },
-                nombre: {
-                    required: "<?php echo trans_line('required'); ?>",
-                    minlength: jQuery.validator.format("<?php echo trans_line('minlength'); ?>")
-                },
-                telefono:{
-                    required: "<?php echo trans_line('required'); ?>",
-                    digits: "<?php echo trans_line('digits'); ?>",
-                    minlength: jQuery.validator.format("<?php echo trans_line('minlength'); ?>")
-                },
-                asunto:{
-                    required: "<?php echo trans_line('required'); ?>",
-                    minlength: jQuery.validator.format("<?php echo trans_line('minlength'); ?>")
-                },
-                mensaje:{
-                    required: "<?php echo trans_line('required'); ?>",
-                    minlength: jQuery.validator.format("<?php echo trans_line('minlength'); ?>")
-                }
-            },
-            rules: {
-                nombre: {
-                    minlength: 3,
-                    required: true
-                },
-                correo:{
-                    minlength: 3,
-                    email: true,
-                    required: true
-                },
-                telefono:{
-                    minlength: 8,
-                    digits: true,
-                    required: true
-                },
-                asunto:{
-                    required: true,
-                    minlength: 3
-                },
-                mensaje:{
-                    required: true,
-                    minlength: 3
-                }
-            },
-
-            invalidHandler: function (event, validator) { //display error alert on form submit
-
-            },
-
-            errorPlacement: function (error, element) {
-                if (element.is(':checkbox')) {
-                    error.insertAfter(element.closest(".md-checkbox-list, .md-checkbox-inline, .checkbox-list, .checkbox-inline"));
-                } else if (element.is(':radio')) {
-                    error.insertAfter(element.closest(".md-radio-list, .md-radio-inline, .radio-list,.radio-inline"));
-                } else {
-                    error.insertAfter(element); // for other inputs, just perform default behavior
-                }
-            },
-
-            highlight: function (element) { // hightlight error inputs
-                $(element)
-                    .closest('.sm-form-control').addClass('error'); // set error class to the control group
-            },
-
-            unhighlight: function (element) { // revert the change done by hightlight
-                $(element)
-                    .closest('.sm-form-control').removeClass('error'); // set error class to the control group
-            },
-
-            success: function (label) {
-                label
-                    .closest('.sm-form-control').removeClass('error'); // set success class to the control group
-            },
-
-            submitHandler: function (form) {
-                $('#btn_submit').html("<?php echo trans_line('btn_submit_loading'); ?>");
-                $('#btn_submit').prop('disabled', true);
-                form.submit();
-            }
-        });
-
-    });
-
-</script>
 
 <!-- Carga extra  -->
 <?php $this->cargar_elementos_manager->carga_simple('elementos_extras/body_last'); ?>
+<script>
+    $(document).ready(function(){$("#notSimple").remove();});
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=<?php echo MAPS_KEY;?>"></script>
+<script>
+
+    // Map Markers
+    var mapMarkers = [{
+        address: "Calzada General Mariano Escobedo 510, Anzures, Ciudad de México, México",
+        html: "<strong><?php echo WNO;?></strong><br><?php echo WNO_DIRECCION;?>",
+        icon: {
+            image: "<?php echo cdn_assets();?>/assets/img/pin.png",
+            iconsize: [26, 46],
+            iconanchor: [12, 46]
+        },
+        popup: true
+    }];
+
+    // Map Initial Location
+    var initLatitude = 19.4318968;
+    var initLongitude = -99.1832036;
+
+    // Map Extended Settings
+    var mapSettings = {
+        controls: {
+            draggable: (($.browser.mobile) ? false : true),
+            panControl: true,
+            zoomControl: true,
+            mapTypeControl: true,
+            scaleControl: true,
+            streetViewControl: true,
+            overviewMapControl: true
+        },
+        scrollwheel: false,
+        markers: mapMarkers,
+        latitude: initLatitude,
+        longitude: initLongitude,
+        zoom: 16
+    };
+
+    var map = $('#googlemaps').gMap(mapSettings),
+        mapRef = $('#googlemaps').data('gMap.reference');
+
+    // Map Center At
+    var mapCenterAt = function(options, e) {
+        e.preventDefault();
+        $('#googlemaps').gMap("centerAt", options);
+    };
+
+</script>
 </body>
 </html>

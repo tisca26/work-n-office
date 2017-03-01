@@ -7,7 +7,7 @@
                         <table border="0" cellpadding="10" cellspacing="0" width="100%" id="emailHeader">
                             <tr>
                                 <td align="center" valign="top" style="border-right: 1px solid #eee; width:180px;">
-                                    <img src="<?php echo cdn_assets();?>assets/images/logo_ova.png" style="height: 90px;"/>
+                                    <img src="<?php echo cdn_assets();?>/assets/img/wno-menu-color.png" style="height: 90px;"/>
                                 </td>
                                 <td align="center" valign="bottom">
                                     <h3><?php echo trans_line('contacto_recibido');?></h3>
@@ -34,11 +34,6 @@
                                     <?php echo trans_line('contacto_pronto');?>
                                 </td>
                             </tr>
-                            <tr>
-                                <td align="center" valign="top" style="padding-left:20px;padding-right:20px;font-size:11px">
-                                    <?php echo trans_line('contacto_recorridos');?>
-                                </td>
-                            </tr>
                         </table>
                     </td>
                 </tr>
@@ -53,7 +48,7 @@
                             <tr>
                                 <td align="center" valign="middle" style="padding-left:30px;">
                                     <a href="<?php echo base_url_lang();?>" style="color:inherit; text-decoration:none; font-size:12px;">
-                                        <b>OVA <small>Oficinas Virtuales Amuebladas</small></b>
+                                        <b>W&O <small>Work & Office</small></b>
                                     </a>
                                 </td>
                                 <td align="right" valign="top" style="padding-right:30px;">

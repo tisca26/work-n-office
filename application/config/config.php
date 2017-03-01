@@ -83,7 +83,7 @@ $config['language']	= 'spanish';
 $config['language_abbr'] = "es";
 
 /* set available language abbreviations */
-$config['lang_uri_abbr'] = array("es" => "Español", "en" => "English");
+$config['lang_uri_abbr'] = array("es" => "spanish", "en" => "english");
 
 /* hide the language segment (use cookie) */
 $config['lang_ignore'] = FALSE;
