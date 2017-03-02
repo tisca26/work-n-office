@@ -2,33 +2,9 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 $lang['language'] = 'es-MX';
-$lang['title_tag'] = 'OVA - Contacto';
+$lang['title_tag'] = 'W&O - Contacto';
 $lang['metatag_desc'] = 'Contacta con nosotros a través de un sencillo formulario y pronto un asesor de ventas se comunicará contigo.';
-$lang['metatag_keywords'] = 'Oficinas, Virtuales, Amuebladas, Contacto, Formulario, E-mail, Mail';
-
-$lang['contacto_page_title'] = 'Contacto';
-$lang['contacto_page_title_sub'] = 'Somos tu mejor opción.';
-
-$lang['contacto_sucursales_titulo_2'] = 'Explora';
-$lang['contacto_sucursales_contacto'] = 'Contactanos';
-
-$lang['contacto_otros_1'] = 'Oficinas Virtuales';
-$lang['contacto_otros_2'] = 'Oficinas Amuebladas';
-$lang['contacto_otros_3'] = 'Recorrido 360°';
-
-$lang['contacto_form_title'] = 'Ponte en contacto con nosotros';
-$lang['contacto_form_nombre'] = 'Nombre';
-$lang['contacto_form_telefono'] = 'Telefono';
-$lang['contacto_form_mail'] = 'Correo Electrónico';
-$lang['contacto_form_enviar'] = 'Enviar';
-$lang['contacto_form_asunto'] = 'Asunto';
-$lang['contacto_form_mensaje'] = 'Mensaje';
-$lang['contacto_exito'] = 'El correo fue enviado exitosamente.';
-$lang['contacto_idioma'] = 'Español';
-$lang['contacto_recibido'] = 'Mensaje Recibido';
-$lang['contacto_gracias'] = 'Hemos recibido su mensaje, ';
-$lang['contacto_pronto'] = 'Pronto un asesor de ventas se pondrá en contacto con usted, gracias.';
-$lang['contacto_recorridos'] = 'Visite nuestros recorridos virtuales en una vista de 360° <a href="'.base_url_lang().'recorrido-360">Click Aquí</a>';
+$lang['metatag_keywords'] = 'Servicios Empresariales';
 
 //Form validation JS
 $lang['minlength'] = 'Este campo debe tener por lo menos {0} caracteres';
@@ -38,7 +14,32 @@ $lang['correo'] = 'Este campo debe ser un email válido';
 $lang['digits'] = 'Este campo solo permite dígitos del 0-9';
 $lang['number'] = 'Este campo solo permite números válidos';
 
-$lang['btn_submit_loading'] = 'Cargando...';
+$lang['titulo'] = 'Contacto';
+$lang['sub_titulo'] = 'Envíanos un E-mail o llámanos';
+$lang['breadcrumb_inicio'] = 'Inicio';
+$lang['breadcrumb_pagina'] = 'Contacto';
 
+$lang['envia_correo'] = 'Envíanos un correo';
+$lang['p_01'] = 'Ponte en contacto con nosotros, aclararemos todas tus dudas y podemos generar una cotización sin compromiso. Confía en nuestros expertos.';
 
+$lang['contacto_exito'] = 'El correo se envió satisfactoriamente, ¡gracias por su preferencia!';
+$lang['contacto_error_prospecto'] = 'El correo se envió satisfactoriamente a nuestra área de ventas, lo contactaremos pronto.';
+$lang['contacto_error'] = 'Hubo un problema al enviar el correo, intente nuevamente';
+
+$lang['frm_nombre_plh'] = 'Nombre*';
+$lang['frm_nombre_req'] = 'Ingrese su nombre por favor.';
+$lang['frm_tel_plh'] = 'Teléfono*';
+$lang['frm_tel_req'] = 'Ingrese su teléfono por favor.';
+$lang['frm_email_plh'] = 'Email*';
+$lang['frm_email_req'] = 'Ingrese su correo por favor.';
+$lang['frm_email_val'] = 'Ingrese un correo válido por favor.';
+$lang['frm_mensaje_plh'] = 'Mensaje*';
+$lang['frm_mensaje_req'] = 'Ingrese su mensaje por favor.';
+
+$lang['frm_btn'] = 'Enviar ahora';
+$lang['frm_btn_loading'] = 'Cargando...';
+
+$lang['direccion'] = 'Dirección';
+$lang['telefono'] = 'Teléfono';
+$lang['email'] = 'Email';
 ?>

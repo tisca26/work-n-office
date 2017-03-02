@@ -78,7 +78,7 @@
                                 <i class="icon-phone icons text-color-primary"></i>
                                 <input type="text" value="" data-msg-required="Ingrese su teléfono."
                                        maxlength="100" class="form-control" name="telefono" id="telefono"
-                                       placeholder="<?php echo trans_line('form_telefono'); ?>" required>
+                                       placeholder="<?php echo trans_line('form_tel'); ?>" required>
                             </div>
                         </div>
                     </div>

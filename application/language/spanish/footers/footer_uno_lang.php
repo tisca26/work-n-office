@@ -12,6 +12,7 @@ $lang['know_social'] = 'Redes Sociales';
 
 $lang['form_title'] = 'Escríbenos';
 $lang['form_name'] = 'Nombre *';
+$lang['form_tel'] = 'Teléfono *';
 $lang['form_mail'] = 'E-mail *';
 $lang['form_mes'] = 'Mensaje *';
 $lang['form_button'] = 'Enviar ahora';

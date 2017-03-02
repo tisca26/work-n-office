@@ -30,10 +30,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>- Contacto <span>Envíanos un E-mail o llámanos</span></h1>
+                        <h1>- <?php echo trans_line('titulo'); ?> <span><?php echo trans_line('sub_titulo'); ?></span></h1>
                         <ul class="breadcrumb breadcrumb-valign-mid">
-                            <li><a href="<?php echo base_url_lang(); ?>">Inicio</a></li>
-                            <li class="active">Contacto</li>
+                            <li><a href="<?php echo base_url_lang(); ?>"><?php echo trans_line('inicio'); ?></a></li>
+                            <li class="active"><?php echo trans_line('breadcrumb_pagina'); ?></li>
                         </ul>
                     </div>
                 </div>
@@ -44,9 +44,9 @@
             <div class="row pt-xs pb-xl mb-md">
                 <div class="col-md-8">
 
-                    <h2 class="font-weight-bold text-color-dark">- Envíanos un correo</h2>
+                    <h2 class="font-weight-bold text-color-dark">- <?php echo trans_line('envia_correo'); ?></h2>
                     <p>
-                        Ponte en contacto con nosotros, aclararemos todas tus dudas y podemos generar una cotización sin compromiso. Confía en nuestros expertos.
+                        <?php echo trans_line('p_01'); ?>
                     </p>
 
                     <div class="contact-form-result">
@@ -55,11 +55,11 @@
                     </div>
 
                     <div class="alert alert-success hidden mt-lg" id="contactSuccess">
-                        <strong>¡Éxito!</strong> Tu mensaje fue enviado.
+                        <strong>¡Éxito!</strong>
                     </div>
 
                     <div class="alert alert-danger hidden mt-lg" id="contactError">
-                        <strong>¡Error!</strong> Hubo un error al enviar tu mensaje.
+                        <strong>¡Error!</strong>
                         <span class="font-size-xs mt-sm display-block" id="mailErrorMessage"></span>
                     </div>
 
@@ -69,7 +69,7 @@
                             <div class="col-md-12">
                                 <div class="custom-input-box">
                                     <i class="icon-user icons text-color-primary"></i>
-                                    <input type="text" value="" data-msg-required="Ingrese su nombre por favor." maxlength="100" class="form-control" name="nombre" id="nombre" placeholder="Nombre*" required>
+                                    <input type="text" value="" data-msg-required="<?php echo trans_line('frm_nombre_req'); ?>" maxlength="100" class="form-control" name="nombre" id="nombre" placeholder="<?php echo trans_line('frm_nombre_plh'); ?>" required>
                                 </div>
                             </div>
                         </div>
@@ -79,7 +79,7 @@
                             <div class="col-md-12">
                                 <div class="custom-input-box">
                                     <i class="icon-phone icons text-color-primary"></i>
-                                    <input type="text" value="" data-msg-required="Ingrese su teléfono por favor." maxlength="20" class="form-control" name="telefono" id="telefono" placeholder="Teléfono*" required>
+                                    <input type="text" value="" data-msg-required="<?php echo trans_line('frm_tel_req'); ?>" maxlength="20" class="form-control" name="telefono" id="telefono" placeholder="<?php echo trans_line('frm_tel_plh'); ?>" required>
                                 </div>
                             </div>
                         </div>
@@ -89,7 +89,7 @@
                             <div class="col-md-12">
                                 <div class="custom-input-box">
                                     <i class="icon-envelope icons text-color-primary"></i>
-                                    <input type="email" value="" data-msg-required="Ingrese su correo electrónico por favor" data-msg-email="Ingrese un correo electrónico válido por favor" maxlength="100" class="form-control" name="email" id="email" placeholder="Email*" required>
+                                    <input type="email" value="" data-msg-required="<?php echo trans_line('frm_email_req'); ?>" data-msg-email="<?php echo trans_line('frm_email_val'); ?>" maxlength="100" class="form-control" name="email" id="email" placeholder="<?php echo trans_line('frm_email_plh'); ?>" required>
                                 </div>
                             </div>
                         </div>
@@ -99,14 +99,14 @@
                             <div class="col-md-12">
                                 <div class="custom-input-box">
                                     <i class="icon-bubble icons text-color-primary"></i>
-                                    <textarea maxlength="5000" data-msg-required="Ingrese su mensaje por favor." rows="10" class="form-control" name="mensaje" id="mensaje" placeholder="Mensaje*" required></textarea>
+                                    <textarea maxlength="5000" data-msg-required="<?php echo trans_line('frm_mensaje_req'); ?>" rows="10" class="form-control" name="mensaje" id="mensaje" placeholder="<?php echo trans_line('frm_mensaje_plh'); ?>" required></textarea>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-12">
-                            <input type="submit" value="Enviar ahora" class="btn btn-borders custom-border-width btn-primary custom-border-radius font-weight-semibold text-uppercase mb-xlg" data-loading-text="Cargando...">
+                            <input type="submit" value="<?php echo trans_line('frm_btn'); ?>" class="btn btn-borders custom-border-width btn-primary custom-border-radius font-weight-semibold text-uppercase mb-xlg" data-loading-text="<?php echo trans_line('frm_btn_loading'); ?>">
                         </div>
                     </div>
                     <?php form_close(); ?>
@@ -120,7 +120,7 @@
                                     <i class="icon-location-pin icons"></i>
                                 </div>
                                 <div class="feature-box-info">
-                                    <h2 class="font-weight-bold text-color-dark">- Dirección</h2>
+                                    <h2 class="font-weight-bold text-color-dark">- <?php echo trans_line('direccion'); ?></h2>
                                     <p class="font-size-lg">
                                         <?php echo WNO_DIRECCION;?>
                                     </p>
@@ -135,7 +135,7 @@
                                     <i class="icon-phone icons"></i>
                                 </div>
                                 <div class="feature-box-info">
-                                    <h2 class="font-weight-bold text-color-dark">- Teléfono</h2>
+                                    <h2 class="font-weight-bold text-color-dark">- <?php echo trans_line('telefono'); ?></h2>
                                     <p class="font-size-lg">
                                         <?php echo TEL_VENTAS;?>
                                     </p>
@@ -150,7 +150,7 @@
                                     <i class="icon-envelope icons"></i>
                                 </div>
                                 <div class="feature-box-info">
-                                    <h2 class="font-weight-bold text-color-dark">- Email</h2>
+                                    <h2 class="font-weight-bold text-color-dark">- <?php echo trans_line('email'); ?></h2>
                                     <p class="font-size-lg">
                                         <a href="<?php echo base_url_lang(). 'contacto';?>" class="text-decoration-none"><?php echo MAIL_CONTACTO;?></a><br>
                                     </p>

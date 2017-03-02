@@ -93,27 +93,28 @@ class Contacto extends CI_Controller
         if ($this->form_validation->run() == FALSE) {
             $this->index();
         } else {
-            $receptor_mail = $this->input->post('email');
             $receptor_nombre = $this->input->post('nombre');
+            $receptor_telefono = $this->input->post('telefono');
+            $receptor_mail = $this->input->post('email');
             $receptor_mensaje = $this->input->post('mensaje');
-            $estado = $this->_enviar_correo_a_ventas($receptor_nombre, $receptor_mail, $receptor_mensaje);
+            $estado = $this->_enviar_correo_a_ventas($receptor_nombre, $receptor_telefono, $receptor_mail, $receptor_mensaje);
             $estado2 = $this->_enviar_correo_a_prospecto($receptor_nombre, $receptor_mail);
             if($estado) {
                 if($estado2) {
                     set_bootstrap_alert(trans_line('contacto_exito'), BOOTSTRAP_ALERT_SUCCESS);
-                    redirect(base_url_lang().'contacto/envio_satisfactorio');
+                    redirect('contacto/envio_satisfactorio');
                 } else{
                     set_boostrap_alert(trans_line('contacto_error_prospecto'),BOOTSTRAP_ALERT_WARNING);
-                    redirect(base_url_lang().'contacto/envio_satisfactorio');
+                    redirect('contacto/envio_satisfactorio');
                 }
             } else{
                 set_bootstrap_alert(trans_line('contacto_error'), BOOTSTRAP_ALERT_DANGER);
-                redirect(current_url());
+                redirect('contacto');
             }
         }
     }
 
-    private function _enviar_correo_a_ventas($receptor_nombre = '', $receptor_mail = '', $receptor_mensaje = '')
+    private function _enviar_correo_a_ventas($receptor_nombre = '', $receptor_telefono = '', $receptor_mail = '', $receptor_mensaje = '')
     {
         $mail = new PHPMailer();
         $mail->SMTPOptions = array(
@@ -124,15 +125,15 @@ class Contacto extends CI_Controller
             )
         );
         $mail->isSMTP();
-        $mail->Host = 'mail.oficinas-virtuales-amuebladas.com';
+        $mail->Host = 'mail.work-n-office.com';
         $mail->SMTPAuth = true;
         $mail->SMTPDebug = 0;
         $mail->SMTPKeepAlive = true; // SMTP connection will not close after each email sent, reduces SMTP overhead
         $mail->SMTPAuth = true;
-        $mail->SMTPSecure = 'ssl';
-        $mail->Username = 'contacto@oficinas-virtuales-amuebladas.com';                 // SMTP username
-        $mail->Password = 'Cont4ct0_123!';
-        $mail->Port = 465;
+        $mail->SMTPSecure = '';
+        $mail->Username = 'soluciones@work-n-office.com';                 // SMTP username
+        $mail->Password = 'Sol123!W&O';
+        $mail->Port = 26;
         $mail->AltBody = 'Para mostrar el mensaje correctamente, por favor, use un visor de email compatible con HTML, ¡gracias!';
         $mail->CharSet = 'UTF-8';
         $mail->ContentType = 'text/html; charset=utf-8\r\n';
@@ -142,6 +143,7 @@ class Contacto extends CI_Controller
         $mail->addAddress('soluciones@work-n-office.com', 'Contacto W&O');
 
         $data['receptor_nombre'] = $receptor_nombre;
+        $data['receptor_telefono'] = $receptor_telefono;
         $data['receptor_mail'] = $receptor_mail;
         $data['receptor_mensaje'] = $receptor_mensaje;
         $cuerpo_mensaje = $this->load->view('contacto/contacto_email_ventas', $data, TRUE);
@@ -168,23 +170,23 @@ class Contacto extends CI_Controller
             )
         );
         $mail->isSMTP();
-        $mail->Host = 'mail.oficinas-virtuales-amuebladas.com';
+        $mail->Host = 'mail.work-n-office.com';
         $mail->SMTPAuth = true;
         $mail->SMTPDebug = 0;
         $mail->SMTPKeepAlive = true; // SMTP connection will not close after each email sent, reduces SMTP overhead
         $mail->SMTPAuth = true;
-        $mail->SMTPSecure = 'ssl';
-        $mail->Username = 'contacto@oficinas-virtuales-amuebladas.com';                 // SMTP username
-        $mail->Password = 'Cont4ct0_123!';
-        $mail->Port = 465;
+        $mail->SMTPSecure = '';
+        $mail->Username = 'soluciones@work-n-office.com';                 // SMTP username
+        $mail->Password = 'Sol123!W&O';
+        $mail->Port = 26;
         $mail->AltBody = 'Para mostrar el mensaje correctamente, por favor, use un visor de email compatible con HTML, ¡gracias!';
         $mail->CharSet = 'UTF-8';
         $mail->ContentType = 'text/html; charset=utf-8\r\n';
         $mail->isHTML(true);
-        $mail->setFrom('contacto@oficinas-virtuales-amuebladas.com', 'Oficinas Virtuales Amuebladas OVA');
+        $mail->setFrom('soluciones@work-n-office.com', 'Work & Office | W&O');
         //$mail->addBCC('');
-        $mail->addReplyTo('contacto@oficinas-virtuales-amuebladas.com', 'Oficinas Virtuales Amuebladas OVA');
-        $mail->Subject = "Contacto OVA";
+        $mail->addReplyTo('soluciones@work-n-office.com', 'Work & Office | W&O');
+        $mail->Subject = "Contacto W&O";
         $mail->addAddress($receptor_mail, $receptor_nombre);
 
         $data['receptor_nombre'] = $receptor_nombre;

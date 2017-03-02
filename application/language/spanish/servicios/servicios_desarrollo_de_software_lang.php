@@ -38,7 +38,7 @@ $lang['estr_titulo'] = '- Nuestra Estrategia';
 $lang['estr_paso'] = 'Paso';
 
 $lang['estr_01_num'] = '01';
-$lang['estr_01_titulo'] = 'Primera Reunión<br> <strong>Recabando Requerimeintos</strong>';
+$lang['estr_01_titulo'] = 'Primera Reunión<br> <strong>Recabando Requerimientos</strong>';
 $lang['estr_01_p_01'] = 'Nuestro equipo especializado recaba los requerimientos de su aplicación, posteriormente generamos un plan de trabajo para mantener controlados los procesos de desarrollo a llevarse a cabo.';
 
 $lang['estr_02_num'] = '02';
