@@ -5,15 +5,20 @@ $lang['title_tag'] = 'Work & Office | Casos de Éxito';
 $lang['metatag_desc'] = 'Nuestros casos de éxito | Work & Office';
 $lang['metatag_keywords'] = 'soluciones empresariales, casos de éxito';
 
-$lang['titulo'] = 'Casos de ';
-$lang['sub_titulo'] = 'Lo que nuestros clientes dicen de nosotros';
+$lang['titulo'] = 'Casos';
+$lang['sub_titulo'] = 'Casos Exitosos';
 $lang['breadcrumb_inicio'] = 'Inicio';
-$lang['breadcrumb_pagina'] = 'Testimonios';
+$lang['breadcrumb_pagina'] = 'Casos';
 
-$lang['testimonio_01_desc'] = 'Excelentes recorridos virtuales, lo hicieron fácil y rápido. El precio se ajustó a mi presupuesto y ahora tengo más clientes gracias a que pueden conocer mis instalaciones desde sus dispositivos.';
-$lang['testimonio_01_autor'] = 'Gabriel Tiscareño';
-$lang['testimonio_01_empresa'] = 'Director Comercial - Oficinas Virtuales Amuebladas';
+$lang['mostrar_todos'] = 'Mostrar todos';
+$lang['juridico'] = 'Asesoría Jurídica';
+$lang['contabilidad'] = 'Contabilidad Corporativa';
+$lang['recorridos_virtuales'] = 'Recorridos Virtuales 360°';
+$lang['reclutamiento_de_ti'] = 'Reclutamiento de TI';
 
-$lang['testimonio_02_desc'] = 'Tenía un desorden en mi contabilidad, Work & Office no solo la arregló, si no que mejoré en muchos aspectos. Ahora pago mis impuestos de manera justa y oportuna.';
-$lang['testimonio_02_autor'] = 'Batsi Cárdenas';
-$lang['testimonio_02_empresa'] = 'CEO & Co-Fundadora - Icognitis';
+$lang['icognitis'] = 'Icognitis';
+$lang['sucesion'] = 'Sucesión';
+$lang['ova'] = 'Oficinas Virtuales Amuebladas';
+$lang['recuperacion_de_cartera'] = 'Recuperación de Cartera';
+$lang['constitucion_de_sociedad_e_inversion_extranjera'] = 'Constitución de Sociedad e Inversión Extranjera';
+$lang['darch'] = 'Darch';

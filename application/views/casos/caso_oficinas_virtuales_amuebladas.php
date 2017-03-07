@@ -118,7 +118,7 @@
 
                     <div class="row">
                         <div class="col-xs-8 col-sm-4 col-md-2 center pt-xlg">
-                            <img src="<?php echo cdn_assets(); ?>/assets/img/demos/business-consulting/testimonials/icognitis.png" alt
+                            <img src="<?php echo cdn_assets(); ?>/assets/img/demos/business-consulting/testimonials/ova.png" alt
                                  class="img-responsive custom-rounded-image"/>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-10">

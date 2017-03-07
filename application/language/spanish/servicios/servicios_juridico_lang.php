@@ -71,7 +71,7 @@ $lang['estr_paso'] = 'Paso';
 
 $lang['estr_01_num'] = '01';
 $lang['estr_01_titulo'] = 'Primera Reunión<br> <strong>Conozcamos la situación</strong>';
-$lang['estr_01_p_01'] = 'Conocemos la situación del involucrado, haciendos parte del entorno y sus condiciones.';
+$lang['estr_01_p_01'] = 'Conocemos la situación del involucrado, haciendonos parte del entorno y sus condiciones.';
 
 $lang['estr_02_num'] = '02';
 $lang['estr_02_titulo'] = 'Segunda Reunión<br> <strong>Propuesta al cliente</strong>';

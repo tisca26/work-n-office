@@ -26,8 +26,7 @@
 
     <div role="main" class="main">
 
-        <section
-                class="page-header page-header-color page-header-quaternary page-header-more-padding custom-page-header">
+        <section class="page-header page-header-color page-header-quaternary page-header-more-padding custom-page-header">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -48,22 +47,22 @@
                         data-plugin-options="{'layoutMode': 'masonry', 'filter': '*'}">
                         <li data-option-value="*" class="active"><a
                                     class="btn btn-borders custom-border-width btn-primary custom-border-radius custom-border-radius-small text-uppercase"
-                                    href="#">Mostrar todos</a></li>
+                                    href="#"><?php echo trans_line('mostrar_todos'); ?></a></li>
                         <li data-option-value=".juridico">
                             <a class="btn btn-borders custom-border-width btn-primary custom-border-radius custom-border-radius-small text-uppercase"
-                                    href="#">Asesoría Jurídica</a>
+                                    href="#"><?php echo trans_line('juridico'); ?></a>
                         </li>
                         <li data-option-value=".contabilidad"><a
                                     class="btn btn-borders custom-border-width btn-primary custom-border-radius custom-border-radius-small text-uppercase"
-                                    href="#">Contabilidad Corporativa</a>
+                                    href="#"><?php echo trans_line('contabilidad'); ?></a>
                         </li>
                         <li data-option-value=".recorridos">
                             <a class="btn btn-borders custom-border-width btn-primary custom-border-radius custom-border-radius-small text-uppercase"
-                                    href="#">Recorridos Virtuales</a>
+                                    href="#"><?php echo trans_line('recorridos_virtuales'); ?></a>
                         </li>
                         <li data-option-value=".reclutamiento">
                             <a class="btn btn-borders custom-border-width btn-primary custom-border-radius custom-border-radius-small text-uppercase"
-                               href="#">Reclutamiento de TI</a>
+                               href="#"><?php echo trans_line('reclutamiento_de_ti'); ?></a>
                         </li>
                     </ul>
                     <div class="row">
@@ -78,8 +77,8 @@
                                             </span>
                                             <span class="thumb-info-caption background-color-secondary p-md pt-xlg pb-xlg">
                                                 <span class="custom-thumb-info-title">
-                                                    <span class="custom-thumb-info-name font-weight-semibold text-color-dark text-md">Contabilidad Corporativa</span>
-                                                    <span class="custom-thumb-info-desc font-weight-light">Icognitis</span>
+                                                    <span class="custom-thumb-info-name font-weight-semibold text-color-dark text-md"><?php echo trans_line('contabilidad'); ?></span>
+                                                    <span class="custom-thumb-info-desc font-weight-light"><?php echo trans_line('icognitis'); ?></span>
                                                 </span>
                                                 <span class="custom-arrow"></span>
                                             </span>
@@ -95,8 +94,8 @@
                                             </span>
                                             <span class="thumb-info-caption background-color-secondary p-md pt-xlg pb-xlg">
                                                 <span class="custom-thumb-info-title">
-                                                    <span class="custom-thumb-info-name font-weight-semibold text-color-dark text-md">Asesoría Fiscal</span>
-                                                    <span class="custom-thumb-info-desc font-weight-light">Sucesión</span>
+                                                    <span class="custom-thumb-info-name font-weight-semibold text-color-dark text-md"><?php echo trans_line('juridico'); ?></span>
+                                                    <span class="custom-thumb-info-desc font-weight-light"><?php echo trans_line('sucesion'); ?></span>
                                                 </span>
                                                 <span class="custom-arrow"></span>
                                             </span>
@@ -112,8 +111,8 @@
                                             </span>
                                             <span class="thumb-info-caption background-color-secondary p-md pt-xlg pb-xlg">
                                                 <span class="custom-thumb-info-title">
-                                                    <span class="custom-thumb-info-name font-weight-semibold text-color-dark text-md">Recorridos Virtuales 360°</span>
-                                                    <span class="custom-thumb-info-desc font-weight-light">Oficinas Virtuales Amuebladas</span>
+                                                    <span class="custom-thumb-info-name font-weight-semibold text-color-dark text-md"><?php echo trans_line('recorridos_virtuales'); ?></span>
+                                                    <span class="custom-thumb-info-desc font-weight-light"><?php echo trans_line('ova'); ?></span>
                                                 </span>
                                                 <span class="custom-arrow"></span>
                                             </span>
@@ -129,8 +128,8 @@
                                             </span>
                                             <span class="thumb-info-caption background-color-secondary p-md pt-xlg pb-xlg">
                                                 <span class="custom-thumb-info-title">
-                                                    <span class="custom-thumb-info-name font-weight-semibold text-color-dark text-md">Asesoría Fiscal</span>
-                                                    <span class="custom-thumb-info-desc font-weight-light">Recuperación de Cartera</span>
+                                                    <span class="custom-thumb-info-name font-weight-semibold text-color-dark text-md"><?php echo trans_line('juridico'); ?></span>
+                                                    <span class="custom-thumb-info-desc font-weight-light"><?php echo trans_line('recuperacion_de_cartera'); ?></span>
                                                 </span>
                                                 <span class="custom-arrow"></span>
                                             </span>
@@ -146,8 +145,8 @@
                                             </span>
                                             <span class="thumb-info-caption background-color-secondary p-md pt-xlg pb-xlg">
                                                 <span class="custom-thumb-info-title">
-                                                    <span class="custom-thumb-info-name font-weight-semibold text-color-dark text-md">Asesoría Fiscal</span>
-                                                    <span class="custom-thumb-info-desc font-weight-light">Constitución de Sociedad e Inversión Extranjera</span>
+                                                    <span class="custom-thumb-info-name font-weight-semibold text-color-dark text-md"><?php echo trans_line('juridico'); ?></span>
+                                                    <span class="custom-thumb-info-desc font-weight-light"><?php echo trans_line('constitucion_de_sociedad_e_inversion_extranjera'); ?></span>
                                                 </span>
                                                 <span class="custom-arrow"></span>
                                             </span>
@@ -163,8 +162,8 @@
                                             </span>
                                             <span class="thumb-info-caption background-color-secondary p-md pt-xlg pb-xlg">
                                                 <span class="custom-thumb-info-title">
-                                                    <span class="custom-thumb-info-name font-weight-semibold text-color-dark text-md">Reclutamiento de TI</span>
-                                                    <span class="custom-thumb-info-desc font-weight-light">Darch</span>
+                                                    <span class="custom-thumb-info-name font-weight-semibold text-color-dark text-md"><?php echo trans_line('reclutamiento_de_ti'); ?></span>
+                                                    <span class="custom-thumb-info-desc font-weight-light"><?php echo trans_line('darch'); ?></span>
                                                 </span>
                                                 <span class="custom-arrow"></span>
                                             </span>

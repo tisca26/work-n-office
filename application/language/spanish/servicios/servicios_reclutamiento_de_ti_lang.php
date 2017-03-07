@@ -26,7 +26,7 @@ $lang['p_04'] = '';
 
 $lang['faq_01'] = '¿Qué costo tiene?';
 $lang['faq_01_ans'] = 'El reclutamiento tiene un costo del 100% del ingreso neto del recurso.';
-$lang['faq_02'] = '¿Queé garantía tengo?';
+$lang['faq_02'] = '¿Qué garantía tengo?';
 $lang['faq_02_ans'] = 'Nuestros servicios cuentan con 3 meses de garantía, es decir, si el recurso es cambiado durante este periodo, nosotros lo reponemos sin costo alguno.';
 $lang['faq_03'] = '¿Generan algún tipo de selección antes de enviar el candidato?';
 $lang['faq_03_ans'] = 'Si, seleccionamos y filtramos los candidatos a partir de sus necesidades, una vez que nuestro equipo diagnostica que el candidato cumple con lo requerido, lo canalizamos con nuestro cliente.';
@@ -35,13 +35,13 @@ $lang['estr_titulo'] = '- Nuestra Estrategia';
 $lang['estr_paso'] = 'Paso';
 
 $lang['estr_01_num'] = '01';
-$lang['estr_01_titulo'] = 'Primer Contacto<br> <strong>Entendiendo Necesidades</strong>';
+$lang['estr_01_titulo'] = 'Primer Contacto<br/> <strong>Entendiendo Necesidades</strong>';
 $lang['estr_01_p_01'] = 'Conocemos sus necesidades, obtenemos las especificaciones de los recursos a reclutar.';
 
 $lang['estr_02_num'] = '02';
-$lang['estr_02_titulo'] = 'Segundo Contacto<br> <strong>Propuesta al cliente</strong>';
+$lang['estr_02_titulo'] = 'Segundo Contacto<br/> <strong>Propuesta al cliente</strong>';
 $lang['estr_02_p_01'] = 'Enviamos propuestas al cliente de los recursos encontrados, previamente filtrados por nuestro equipo de reclutamiento.';
 
 $lang['estr_03_num'] = '03';
-$lang['estr_03_titulo'] = 'Contacto Final<br> <strong>Sus reursos están listos</strong>';
-$lang['estr_03_p_01'] = 'El cliente es colocado en la vacante solicitada y realizamos los trámites administrativos pertinentes.';
+$lang['estr_03_titulo'] = 'Contacto Final<br /> <strong>Sus reursos están listos</strong>';
+$lang['estr_03_p_01'] = 'El recurso es colocado en la vacante solicitada y realizamos los trámites administrativos pertinentes.';

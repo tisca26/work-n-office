@@ -11,7 +11,7 @@ $lang['breadcrumb_inicio'] = 'Inicio';
 $lang['breadcrumb_pagina'] = 'Casos';
 $lang['breadcrumb_subpagina'] = 'Asesoría Jurídica';
 
-$lang['fecha'] = '12 septiembe 2016';
+$lang['fecha'] = '12 septiembre 2016';
 $lang['tag_01'] = 'Asesoría';
 $lang['tag_02'] = 'Jurídica';
 
