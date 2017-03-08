@@ -95,9 +95,9 @@ defined('BOOTSTRAP_ALERT_DANGER')   OR define('BOOTSTRAP_ALERT_DANGER', 'danger'
 /*
  * Redes sociales
  */
-defined('FACEBOOK_WNO')             OR define('FACEBOOK_WNO', 'https://www.facebook.com/');
-defined('TWITTER_WNO')              OR define('TWITTER_WNO', 'https://twitter.com/');
-defined('GOOGLE_PLUS_WNO')          OR define('GOOGLE_PLUS_WNO', 'https://plus.google.com/');
+defined('FACEBOOK_WNO')             OR define('FACEBOOK_WNO', 'https://www.facebook.com/work.n.office');
+defined('TWITTER_WNO')              OR define('TWITTER_WNO', 'https://twitter.com/work_n_office');
+defined('GOOGLE_PLUS_WNO')          OR define('GOOGLE_PLUS_WNO', 'https://plus.google.com/100320516756561121281');
 
 /*
  * Elementos WNO

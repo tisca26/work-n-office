@@ -61,7 +61,7 @@
                         <div class="col-md-4">
                             <ul class="list list-icons list-icons-style-3 list-tertiary">
                                 <li><i class="fa fa-chevron-right"></i> <?php echo trans_line('li_serv_03'); ?></li>
-                                <li><i class="fa fa-chevron-right"></i> <?php echo trans_line('li_serv_06'); ?></li>
+                                <li><i class="fa fa-chevron-right"></i> <?php echo trans_line('li_serv_04'); ?></li>
                             </ul>
                         </div>
                         <div class="col-md-4">
