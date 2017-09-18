@@ -43,4 +43,9 @@ $lang['frm_btn_loading'] = 'Cargando...';
 $lang['direccion'] = 'Dirección';
 $lang['telefono'] = 'Teléfono';
 $lang['email'] = 'Email';
+
+$lang['contacto_idioma'] = 'Español';
+$lang['contacto_recibido'] = 'Mensaje Recibido';
+$lang['contacto_gracias'] = 'Hemos recibido su mensaje, ';
+$lang['contacto_pronto'] = 'Pronto un asesor de ventas se pondrá en contacto con usted, gracias.';
 ?>

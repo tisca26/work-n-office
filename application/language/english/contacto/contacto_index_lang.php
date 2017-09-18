@@ -42,4 +42,9 @@ $lang['frm_btn_loading'] = 'Loading...';
 $lang['direccion'] = 'Address';
 $lang['telefono'] = 'Phone';
 $lang['email'] = 'Email';
+
+$lang['contacto_idioma'] = 'English';
+$lang['contacto_recibido'] = 'Message Received';
+$lang['contacto_gracias'] = 'We received your message, ';
+$lang['contacto_pronto'] = 'Soon a sales consultant will get in touch with you, thank you.';
 ?>
